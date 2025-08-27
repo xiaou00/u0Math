@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "smartIndentList": true,
+  "showLineNumber": false,
+  "foldHeading": false,
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true,
+  "rightToLeft": false,
+  "autoPairMarkdown": true,
+  "autoPairBrackets": true
+}

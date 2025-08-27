@@ -1,0 +1,55 @@
+{
+  "wallpaperPath": "plugins/live-wallpaper/wallpapers/active/normal/117542401_p0_quality.jpg",
+  "wallpaperType": "image",
+  "playbackSpeed": 1,
+  "Quality": false,
+  "Reposition": false,
+  "opacity": 20,
+  "zIndex": 5,
+  "blurRadius": 5,
+  "brightness": 130,
+  "HistoryPaths": [
+    {
+      "path": "plugins/live-wallpaper/wallpapers/history/117542401_p0_quality.jpg",
+      "type": "image",
+      "fileName": "117542401_p0_quality.jpg"
+    }
+  ],
+  "mobileBackgroundWidth": "100vw",
+  "mobileBackgroundHeight": "100vh",
+  "AdnvOpend": false,
+  "modalStyle": {
+    "effect": "blur+dim",
+    "blurRadius": 10,
+    "dimOpacity": 0.7
+  },
+  "TextArenas": [
+    {
+      "target": "",
+      "attribute": ""
+    }
+  ],
+  "Color": "#000000",
+  "Position": "Center",
+  "PositionX": 50,
+  "PositionY": 50,
+  "Scale": 1,
+  "useObjectFit": true,
+  "INBUILD": false,
+  "scheduledWallpapers": {
+    "wallpaperDayPaths": [],
+    "wallpaperWeekPaths": [],
+    "options": {
+      "dayNightMode": false,
+      "weekly": false,
+      "shuffle": false,
+      "dayStartTime": "08:00",
+      "nightStartTime": "20:00",
+      "intervalCheckTime": "00:10",
+      "isCustomInterval": false
+    },
+    "wallpaperDayTypes": [],
+    "wallpaperWeekTypes": []
+  },
+  "migrated": true
+}

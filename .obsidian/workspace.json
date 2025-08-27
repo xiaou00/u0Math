@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "0f6f7d88de1137a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9ee1d55eeb44338",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "004068e24e04e196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "拓扑/点集拓扑/连通性/道路.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "道路"
+            }
+          },
+          {
+            "id": "beac458787840b47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "拓扑/点集拓扑/连通性/连通空间.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "连通空间"
+            }
+          },
+          {
+            "id": "8ddd0d15e4b97105",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "拓扑/点集拓扑/闭集与极限点/Hausdorff空间.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hausdorff空间"
+            }
+          },
+          {
+            "id": "8ce3912fdb8fbba6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0cd35f5aa72a7265",
+    "type": "split",
+    "children": [
+      {
+        "id": "4812d21f70a29d48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cbaa6b651d38023",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "1e4b9d9c7238ef06",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4048ca2599c1a6d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5110321044922
+  },
+  "right": {
+    "id": "cfa8e8d39211b9b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "860fff772ef3856d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f72e33e9f2fad81",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "拓扑/点集拓扑/连续函数/商映射.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "商映射 的反向链接列表"
+            }
+          },
+          {
+            "id": "e19057437112f06e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "代数/抽象代数/群论/子群.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "子群 的出链列表"
+            }
+          },
+          {
+            "id": "0508243977ab2927",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "77f92f2b42e6b276",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "拓扑/点集拓扑/连续函数/商映射.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "商映射 的大纲"
+            }
+          },
+          {
+            "id": "79cfae6290c4d810",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "ed2c3c4d7de29294",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "004068e24e04e196",
+  "lastOpenFiles": [
+    "拓扑/点集拓扑/连通性/道路.md",
+    "拓扑/点集拓扑/连通性/连通空间.md",
+    "拓扑/点集拓扑/连通性/线性连续统.md",
+    "拓扑/点集拓扑/连续函数/商拓扑.md",
+    "拓扑/点集拓扑/闭集与极限点/Hausdorff空间.md",
+    "拓扑/点集拓扑/集合上构造拓扑/二元积拓扑.md",
+    "拓扑/点集拓扑/集合上构造拓扑/一致收敛(度量空间).md",
+    "拓扑/点集拓扑/集合上构造拓扑/序列引理.md",
+    "拓扑/点集拓扑/连续函数/开映射与闭映射.md",
+    "拓扑/点集拓扑/连续函数/连续函数.md",
+    "拓扑/点集拓扑/连续函数/连续函数的构造.md",
+    "拓扑/点集拓扑/连续函数/黏结引理.md",
+    "拓扑/点集拓扑/序拓扑.md",
+    "拓扑/点集拓扑/拓扑的比较.md",
+    "拓扑/点集拓扑/实数轴上的拓扑.md",
+    "拓扑/点集拓扑/去心邻域.md",
+    "拓扑/点集拓扑/子空间拓扑.md",
+    "拓扑/点集拓扑/拓扑空间.md",
+    "拓扑/点集拓扑/连续函数/同胚.md",
+    "拓扑/点集拓扑/连续函数/嵌入.md",
+    "拓扑/点集拓扑/连续函数/连续函数-总结.canvas",
+    "集合论/序关系/上界.md",
+    "集合论/序关系/确界.md",
+    "集合论/序关系/凸子集.md",
+    "代数/抽象代数/群论/特殊群/循环群.md",
+    "拓扑/点集拓扑/集合上构造拓扑/一致拓扑.md",
+    "拓扑/点集拓扑/集合上构造拓扑/箱拓扑与积拓扑.md",
+    "preamble.sty.XxjxNM",
+    "preamble.sty.bhdNsZ",
+    "preamble.sty.WwnWJw",
+    "Pasted image 20250824200830.png",
+    "未命名",
+    "未命名.base",
+    "未命名.canvas",
+    "拓扑/点集拓扑/闭集与极限点/闭集相关内容-总结.canvas",
+    "拓扑/点集拓扑/连通性/未命名.canvas",
+    "代数/抽象代数/群论/特殊群",
+    "代数/抽象代数/群论/群作用",
+    "代数/抽象代数/群论/Sylow定理",
+    "代数/抽象代数/群论/同构定理",
+    "代数/抽象代数/群论/陪集",
+    "Pasted image 20250820225857.png",
+    "Pasted image 20250820225703.png",
+    "new_00001.svg",
+    "Pasted image 20250814194733.png",
+    "Pasted image 20250813141559.png",
+    "Pasted image 20250813141550.png",
+    "集合论/未命名.canvas"
+  ]
+}

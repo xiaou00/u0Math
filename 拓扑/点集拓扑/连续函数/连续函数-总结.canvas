@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"b675e55cf3687cae","type":"file","file":"拓扑/点集拓扑/连续函数/连续函数.md","x":-440,"y":-300,"width":400,"height":400},
+		{"id":"67461ec805cc5f64","type":"text","text":"$f$连续","x":40,"y":-300,"width":120,"height":60},
+		{"id":"cd00f9cdf4b44cf2","type":"text","text":"$\\forall A\\subset X, f(\\clos{A})\\subset\\clos{f(A)}$","x":40,"y":-180,"width":200,"height":60},
+		{"id":"2c8bbd07a20f3316","type":"text","text":"对于每一个$x\\in X$和$f(x)$的每一个邻域$V$, 存在$x$的邻域$U$使得$f(U)\\subset V$","x":40,"y":-60,"width":368,"height":60,"color":"5"},
+		{"id":"dc2164fceb7b143d","type":"text","text":"对于$Y$的任意闭集$B$, $f^{-1}(B)$是$X$中的闭集","x":40,"y":70,"width":250,"height":60},
+		{"id":"a5f034e93dc6de88","type":"text","text":"**※核心定义** 对任意开集的原像也是开集","x":283,"y":-300,"width":250,"height":60,"color":"5"},
+		{"id":"38c985e70041fb21","type":"file","file":"拓扑/点集拓扑/连续函数/连续函数的构造.md","x":-440,"y":230,"width":400,"height":400},
+		{"id":"ea78ddd4bb499766","type":"text","text":"**(复合).** 若$f:X\\to Y$与$g:Y\\to Z$连续, 则映射$g\\circ f:X\\to Z$连续.","x":100,"y":570,"width":616,"height":60},
+		{"id":"628459fa3f5e574f","type":"text","text":"**(内射).** 若$A$为$X$的子空间, 那么内射$j:A\\to X$ (其中$j(a)=a$) 连续.","x":100,"y":450,"width":616,"height":60},
+		{"id":"e972403acfe402f7","type":"text","text":"**(常值函数).** 若$f:X\\to Y$将整个$X$映成$Y$中唯一的点$y_0$, 则$f$连续.","x":100,"y":330,"width":616,"height":60},
+		{"id":"68f587cc9e9e70b2","type":"text","text":"**(限制值域).** 若$f:X\\to Y$连续, $Z$为$Y$中包含像集$f(X)$的一个子空间, 则限制值域得到的函数$g:X\\to Z$也连续.","x":800,"y":230,"width":616,"height":80},
+		{"id":"e7539a9417aa1b3a","type":"text","text":"**(扩大值域)**. 若$f:X\\to Y$连续, 若$Z$以$Y$为子空间, 则扩大$f$的值域得到的函数$h:X\\to Z$也连续.","x":800,"y":390,"width":616,"height":80},
+		{"id":"b2276d279b93e003","type":"text","text":"**(连续性的局部表示).** 若$X$可以写成开集族$\\set{U_\\alpha}$的并, 使得对于每个$U_\\alpha$, 限制映射$f|_{U_\\alpha}$都连续, 则映射$f:X\\to Y$连续.","x":800,"y":550,"width":616,"height":80},
+		{"id":"82dda6d51480828a","type":"text","text":"**(限制定义域).** 若$f:X\\to Y$连续, $A$为$X$子空间, 则限制映射$f|_A:A\\to Y$连续.","x":800,"y":70,"width":616,"height":80},
+		{"id":"79dccb49f44d8567","type":"text","text":"对应分析中的连续点","x":500,"y":-60,"width":250,"height":60},
+		{"id":"132483891a9c9838","type":"file","file":"拓扑/点集拓扑/连续函数/黏结引理.md","x":1600,"y":230,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"90843d9964372b9a","fromNode":"67461ec805cc5f64","fromSide":"bottom","toNode":"cd00f9cdf4b44cf2","toSide":"top","fromEnd":"arrow"},
+		{"id":"85580023c90b8525","fromNode":"cd00f9cdf4b44cf2","fromSide":"bottom","toNode":"2c8bbd07a20f3316","toSide":"top","fromEnd":"arrow"},
+		{"id":"27ae54427d6a653b","fromNode":"2c8bbd07a20f3316","fromSide":"bottom","toNode":"dc2164fceb7b143d","toSide":"top","fromEnd":"arrow"},
+		{"id":"a95f65a38b6cfefa","fromNode":"dc2164fceb7b143d","fromSide":"right","toNode":"67461ec805cc5f64","toSide":"right","fromEnd":"arrow"},
+		{"id":"7265da5273cf6720","fromNode":"b675e55cf3687cae","fromSide":"right","toNode":"67461ec805cc5f64","toSide":"left"},
+		{"id":"43c1a69e9c7d181e","fromNode":"67461ec805cc5f64","fromSide":"top","toNode":"a5f034e93dc6de88","toSide":"left"},
+		{"id":"e543196b6bbb7580","fromNode":"38c985e70041fb21","fromSide":"right","toNode":"e972403acfe402f7","toSide":"left"},
+		{"id":"26074ec044565d3d","fromNode":"38c985e70041fb21","fromSide":"right","toNode":"628459fa3f5e574f","toSide":"left"},
+		{"id":"16729e6ebb14ee40","fromNode":"38c985e70041fb21","fromSide":"right","toNode":"ea78ddd4bb499766","toSide":"left"},
+		{"id":"da4aa3bdc4709d69","fromNode":"38c985e70041fb21","fromSide":"right","toNode":"82dda6d51480828a","toSide":"left"},
+		{"id":"51db3c1517591e29","fromNode":"38c985e70041fb21","fromSide":"right","toNode":"68f587cc9e9e70b2","toSide":"left"},
+		{"id":"58fb88ca7345aa30","fromNode":"38c985e70041fb21","fromSide":"right","toNode":"e7539a9417aa1b3a","toSide":"left"},
+		{"id":"52f986c7b3a9eaed","fromNode":"38c985e70041fb21","fromSide":"right","toNode":"b2276d279b93e003","toSide":"left"},
+		{"id":"07ab50e989c1ef30","fromNode":"2c8bbd07a20f3316","fromSide":"right","toNode":"79dccb49f44d8567","toSide":"left"},
+		{"id":"f16a9b9c7c8f1ccb","fromNode":"b2276d279b93e003","fromSide":"right","toNode":"132483891a9c9838","toSide":"left","label":"换做闭集"}
+	]
+}

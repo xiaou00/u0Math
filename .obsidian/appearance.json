@@ -1,0 +1,15 @@
+{
+  "accentColor": "#ff0000",
+  "cssTheme": "Shade Sanctuary",
+  "enabledCssSnippets": [
+    "idea",
+    "definition",
+    "custom-admonitions.5e6c40"
+  ],
+  "theme": "system",
+  "textFontFamily": "Consolas",
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "",
+  "baseFontSize": 18
+}
