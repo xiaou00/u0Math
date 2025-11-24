@@ -163,8 +163,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,9 +271,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8813179ce1b5ae2",
+  "active": "786b06e8428f5ac7",
   "lastOpenFiles": [
+    "均值不等式.md",
     "分析/实分析/Hilbert空间/闭子空间.md",
+    "学习计划.md",
+    "一阶线性微分方程.png",
     "分析/实分析/Hilbert空间/Hilbert基.md",
     "分析/实分析/Hilbert空间/酉映射.md",
     "分析/实分析/Lebesgue积分/Fubini定理.md",
@@ -301,11 +303,8 @@
     "范畴论/极限理论",
     "Pasted image 20251123190450.png",
     "Pasted image 20251123190449.png",
-    "范畴论/范畴基础/可表函子.md",
-    "范畴论/范畴基础/态射函子.md",
     "5ab6c33170bbe9298b1ff945ff0fb706.jpg",
     "Pasted image 20251119224832.png",
-    "一阶线性微分方程.png",
     "copilot/copilot-conversations",
     "copilot",
     "分析/ODE/初等积分法/未命名",
