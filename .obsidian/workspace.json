@@ -231,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "拓扑/点集拓扑/连续函数/商映射.md",
+                "file": "分析/实分析/Hilbert空间/闭子空间.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "商映射 的大纲"
+              "title": "闭子空间 的大纲"
             }
           },
           {
@@ -272,7 +272,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "786b06e8428f5ac7",
+  "active": "b8813179ce1b5ae2",
   "lastOpenFiles": [
     "分析/实分析/Hilbert空间/闭子空间.md",
     "分析/实分析/Hilbert空间/Hilbert基.md",
