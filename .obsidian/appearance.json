@@ -4,12 +4,14 @@
   "enabledCssSnippets": [
     "idea",
     "definition",
-    "custom-admonitions.5e6c40"
+    "custom-admonitions.5e6c40",
+    "custom_callouts"
   ],
   "theme": "system",
-  "textFontFamily": "Consolas",
+  "textFontFamily": "Century,Cambria Math",
   "baseFontSizeAction": true,
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "Century,Cambria Math,Times New Roman",
   "monospaceFontFamily": "",
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "nativeMenus": true
 }

@@ -1,10 +1,6 @@
 {
   "colorthemes@@main-color": "black-night",
   "colorthemes@@color-intensity": "intensity-abyss",
-  "colorthemes@@font-text": "Consolas",
-  "colorthemes@@font-interface-theme": "Consolas",
-  "colorthemes@@font-monospace-theme": "Consolas",
-  "colorthemes@@font-callout-theme": "Consolas",
   "vauxhall@@main-color": "vauxhall-white",
   "vauxhall@@color-intensity": "intensity-standard",
   "vauxhall@@header-color-type": "headers-gradient-cyan-to-purple",
@@ -24,5 +20,9 @@
   "CG@@major-heading": "Consolas",
   "CG@@minor-heading": "Consolas",
   "CG@@title-heading": "Consolas",
-  "CG@@custom-windhighlight-accent": "#000000"
+  "CG@@custom-windhighlight-accent": "#000000",
+  "colorthemes@@font-callout-theme": "Cambria Math",
+  "colorthemes@@font-text": "Cambria Math",
+  "colorthemes@@font-interface-theme": "Cambria Math",
+  "colorthemes@@font-monospace-theme": "Consolas"
 }

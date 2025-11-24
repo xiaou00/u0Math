@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"b675e55cf3687cae","type":"file","file":"拓扑/点集拓扑/连续函数/连续函数.md","x":-440,"y":-300,"width":400,"height":400},
+		{"id":"b675e55cf3687cae","type":"file","file":"拓扑/点集拓扑/连续函数/连续映射.md","x":-440,"y":-300,"width":400,"height":400},
 		{"id":"67461ec805cc5f64","type":"text","text":"$f$连续","x":40,"y":-300,"width":120,"height":60},
 		{"id":"cd00f9cdf4b44cf2","type":"text","text":"$\\forall A\\subset X, f(\\clos{A})\\subset\\clos{f(A)}$","x":40,"y":-180,"width":200,"height":60},
 		{"id":"2c8bbd07a20f3316","type":"text","text":"对于每一个$x\\in X$和$f(x)$的每一个邻域$V$, 存在$x$的邻域$U$使得$f(U)\\subset V$","x":40,"y":-60,"width":368,"height":60,"color":"5"},

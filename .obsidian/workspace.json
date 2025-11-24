@@ -4,53 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "a9ee1d55eeb44338",
+        "id": "2c2ee8dc72f3793a",
         "type": "tabs",
+        "dimension": 58.51780558229066,
         "children": [
           {
-            "id": "004068e24e04e196",
+            "id": "786b06e8428f5ac7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "拓扑/点集拓扑/连通性/道路.md",
+                "file": "分析/实分析/Hilbert空间/闭子空间.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "道路"
+              "title": "闭子空间"
             }
           },
           {
-            "id": "beac458787840b47",
+            "id": "07b07e665dc4d763",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "拓扑/点集拓扑/连通性/连通空间.md",
+                "file": "分析/实分析/Hilbert空间/Hilbert基.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "连通空间"
+              "title": "Hilbert基"
             }
           },
           {
-            "id": "8ddd0d15e4b97105",
+            "id": "f22f70ff60ac1957",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "拓扑/点集拓扑/闭集与极限点/Hausdorff空间.md",
+                "file": "分析/ODE/初等积分法/一阶线性微分方程.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Hausdorff空间"
+              "title": "一阶线性微分方程"
             }
           },
           {
-            "id": "8ce3912fdb8fbba6",
+            "id": "a8eb45db3a0e11d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "分析/实分析/Hilbert空间/酉映射.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "酉映射"
+            }
+          },
+          {
+            "id": "d4cc512ea1ac63e2",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -60,6 +79,38 @@
             }
           }
         ]
+      },
+      {
+        "id": "4ad9ffb491dbf0c9",
+        "type": "tabs",
+        "dimension": 41.48219441770933,
+        "children": [
+          {
+            "id": "4961fd0ee3a09852",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://gemini.google.com/app/65fc428325a9c6d3"
+              },
+              "icon": "lucide-file",
+              "title": "Google Gemini"
+            }
+          },
+          {
+            "id": "fa7ff1fb7111b5d4",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "file:///D:/u0%E3%81%AE%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E3%8A%99%EF%B8%8F/%E5%AE%9E%E5%88%86%E6%9E%90%20Stein_cn.pdf"
+              },
+              "icon": "lucide-file",
+              "title": "实分析 Stein_cn.pdf"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +145,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -112,7 +163,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,7 +184,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "拓扑/点集拓扑/连续函数/商映射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +193,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "商映射 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -190,17 +241,7 @@
             }
           },
           {
-            "id": "79cfae6290c4d810",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "ed2c3c4d7de29294",
+            "id": "b8813179ce1b5ae2",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -210,7 +251,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -218,6 +259,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "copilot:Open Copilot Chat": false,
       "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -225,59 +267,65 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "workspaces:管理工作区布局": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "004068e24e04e196",
+  "active": "786b06e8428f5ac7",
   "lastOpenFiles": [
-    "拓扑/点集拓扑/连通性/道路.md",
-    "拓扑/点集拓扑/连通性/连通空间.md",
-    "拓扑/点集拓扑/连通性/线性连续统.md",
-    "拓扑/点集拓扑/连续函数/商拓扑.md",
-    "拓扑/点集拓扑/闭集与极限点/Hausdorff空间.md",
-    "拓扑/点集拓扑/集合上构造拓扑/二元积拓扑.md",
-    "拓扑/点集拓扑/集合上构造拓扑/一致收敛(度量空间).md",
-    "拓扑/点集拓扑/集合上构造拓扑/序列引理.md",
-    "拓扑/点集拓扑/连续函数/开映射与闭映射.md",
-    "拓扑/点集拓扑/连续函数/连续函数.md",
-    "拓扑/点集拓扑/连续函数/连续函数的构造.md",
-    "拓扑/点集拓扑/连续函数/黏结引理.md",
-    "拓扑/点集拓扑/序拓扑.md",
-    "拓扑/点集拓扑/拓扑的比较.md",
-    "拓扑/点集拓扑/实数轴上的拓扑.md",
-    "拓扑/点集拓扑/去心邻域.md",
-    "拓扑/点集拓扑/子空间拓扑.md",
-    "拓扑/点集拓扑/拓扑空间.md",
-    "拓扑/点集拓扑/连续函数/同胚.md",
-    "拓扑/点集拓扑/连续函数/嵌入.md",
-    "拓扑/点集拓扑/连续函数/连续函数-总结.canvas",
-    "集合论/序关系/上界.md",
-    "集合论/序关系/确界.md",
-    "集合论/序关系/凸子集.md",
-    "代数/抽象代数/群论/特殊群/循环群.md",
-    "拓扑/点集拓扑/集合上构造拓扑/一致拓扑.md",
-    "拓扑/点集拓扑/集合上构造拓扑/箱拓扑与积拓扑.md",
-    "preamble.sty.XxjxNM",
-    "preamble.sty.bhdNsZ",
-    "preamble.sty.WwnWJw",
-    "Pasted image 20250824200830.png",
-    "未命名",
-    "未命名.base",
-    "未命名.canvas",
+    "分析/实分析/Hilbert空间/闭子空间.md",
+    "分析/实分析/Hilbert空间/Hilbert基.md",
+    "分析/实分析/Hilbert空间/酉映射.md",
+    "分析/实分析/Lebesgue积分/Fubini定理.md",
+    "代数/抽象代数/群论/群作用/Burnside引理.md",
+    "代数/抽象代数/群论/群作用/不动点组合公式.md",
+    "DEFS.md",
+    "分析/实分析/Hilbert空间/Parseval定理.md",
+    "代数/抽象代数/群论/群作用/群中心.md",
+    "代数/线性代数/内积空间/规范正交.md",
+    "代数/线性代数/内积空间/内积空间.md",
+    "分析/实分析/Hilbert空间/Gram-Schmidt正交化.md",
+    "分析/实分析/Hilbert空间/Hilbert空间.md",
+    "分析/ODE/初等积分法/一阶线性微分方程.md",
+    "代数/线性代数/内积空间/极化恒等式.md",
+    "分析/实分析/Hilbert空间/Bessel不等式.md",
+    "代数/线性代数/内积空间/Pythagoras定理.md",
+    "代数/线性代数/线性函数/线性同构.md",
+    "分析/实分析/Hilbert空间/L2空间.md",
+    "范畴论/极限理论/极限.md",
+    "范畴论/范畴基础/范畴.md",
+    "范畴论/函子/函子.md",
+    "范畴论/范畴基础/Yoneda引理.md",
+    "范畴论/范畴基础/射影对象与单射对象.md",
+    "范畴论/极限理论",
+    "Pasted image 20251123190450.png",
+    "Pasted image 20251123190449.png",
+    "范畴论/范畴基础/可表函子.md",
+    "范畴论/范畴基础/态射函子.md",
+    "5ab6c33170bbe9298b1ff945ff0fb706.jpg",
+    "Pasted image 20251119224832.png",
+    "一阶线性微分方程.png",
+    "copilot/copilot-conversations",
+    "copilot",
+    "分析/ODE/初等积分法/未命名",
+    "分析/ODE/初等积分法",
+    "分析/ODE",
+    "分析/微分/多元函数微分学",
+    "代数/线性代数/内积空间",
+    "分析/实分析/Hilbert空间",
+    "分析/微分几何/曲线论",
+    "广义Minkowski不等式.png",
+    "Pasted image 20251112015249.png",
+    "Pasted image 20251021220713.png",
+    "代数/抽象代数/群论/群作用/群作用(总结).canvas",
     "拓扑/点集拓扑/闭集与极限点/闭集相关内容-总结.canvas",
+    "Pasted image 20251015172235.png",
+    "Pasted image 20251008190225.png",
+    "拓扑/点集拓扑/连续函数/连续函数-总结.canvas",
+    "拓扑/点集拓扑/分离公理/(总结)可数性公理与分离公理.canvas",
+    "未命名.canvas",
     "拓扑/点集拓扑/连通性/未命名.canvas",
-    "代数/抽象代数/群论/特殊群",
-    "代数/抽象代数/群论/群作用",
-    "代数/抽象代数/群论/Sylow定理",
-    "代数/抽象代数/群论/同构定理",
-    "代数/抽象代数/群论/陪集",
-    "Pasted image 20250820225857.png",
-    "Pasted image 20250820225703.png",
-    "new_00001.svg",
-    "Pasted image 20250814194733.png",
-    "Pasted image 20250813141559.png",
-    "Pasted image 20250813141550.png",
     "集合论/未命名.canvas"
   ]
 }

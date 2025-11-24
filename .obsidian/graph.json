@@ -6,46 +6,17 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:集合论 ",
-      "color": {
-        "a": 1,
-        "rgb": 13697024
-      }
-    },
-    {
-      "query": "path:代数  ",
-      "color": {
-        "a": 1,
-        "rgb": 19711
-      }
-    },
-    {
-      "query": "path:分析  ",
-      "color": {
-        "a": 1,
-        "rgb": 327424
-      }
-    },
-    {
-      "query": "path:拓扑  ",
-      "color": {
-        "a": 1,
-        "rgb": 16774912
-      }
-    }
-  ],
-  "collapse-display": false,
+  "colorGroups": [],
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.4,
-  "nodeSizeMultiplier": 1.18492723492724,
-  "lineSizeMultiplier": 0.798340740740741,
-  "collapse-forces": false,
-  "centerStrength": 1,
-  "repelStrength": 20,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 200,
-  "scale": 0.2626065549562811,
-  "close": false
+  "linkDistance": 250,
+  "scale": 0.1532768512028295,
+  "close": true
 }

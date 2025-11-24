@@ -1,12 +1,13 @@
 [
-  "obsidian-latex-suite",
-  "obsidian-tikzjax",
-  "obsidian-admonition",
+  "templater-obsidian",
   "obsidian-style-settings",
-  "obsidian-export-image",
-  "obsidian-image-toolkit",
-  "table-editor-obsidian",
-  "obsidian-latex",
   "live-wallpaper",
+  "obsidian-latex-suite",
+  "obsidian-latex",
+  "obsidian-export-image",
+  "obsidian-tikzjax",
+  "surfing",
+  "obsidian-regex-replace",
+  "copilot",
   "obsidian-git"
 ]

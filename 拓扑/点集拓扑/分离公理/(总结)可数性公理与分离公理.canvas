@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"d4163314c79c1525","type":"text","text":"T0 (Kolmogorov)","x":-480,"y":-400,"width":205,"height":50},
+		{"id":"55fdfd8891a596bf","type":"text","text":"T1 (Frechét)","x":-480,"y":-320,"width":205,"height":50},
+		{"id":"57fb7a8b385baf5e","type":"text","text":"T2 (Hausdorff)","x":-480,"y":-240,"width":205,"height":50},
+		{"id":"4142b1bbb706a73b","type":"text","text":"T3 (正则)","x":-480,"y":-160,"width":205,"height":50},
+		{"id":"8de84ebbe1be36a6","type":"text","text":"T6 (完美正规)","x":-480,"y":80,"width":205,"height":50},
+		{"id":"11dfb70c2ab90679","type":"text","text":"T5 (完全正规)","x":-480,"y":0,"width":205,"height":50},
+		{"id":"c5cdfe9ed0a9840f","type":"text","text":"T4 (正规)","x":-480,"y":-80,"width":205,"height":50}
+	],
+	"edges":[
+		{"id":"e278646225d036c0","fromNode":"8de84ebbe1be36a6","fromSide":"top","toNode":"11dfb70c2ab90679","toSide":"bottom"},
+		{"id":"d8eeb33796a89ed0","fromNode":"11dfb70c2ab90679","fromSide":"top","toNode":"c5cdfe9ed0a9840f","toSide":"bottom"},
+		{"id":"dd16b593698e20ed","fromNode":"c5cdfe9ed0a9840f","fromSide":"top","toNode":"4142b1bbb706a73b","toSide":"bottom"},
+		{"id":"fbd913e33ae87c5b","fromNode":"4142b1bbb706a73b","fromSide":"top","toNode":"57fb7a8b385baf5e","toSide":"bottom"},
+		{"id":"6f30d658c9915f5e","fromNode":"57fb7a8b385baf5e","fromSide":"top","toNode":"55fdfd8891a596bf","toSide":"bottom"},
+		{"id":"a2b3716a8cd08c25","fromNode":"55fdfd8891a596bf","fromSide":"top","toNode":"d4163314c79c1525","toSide":"bottom"}
+	]
+}
