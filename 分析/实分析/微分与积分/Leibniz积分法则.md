@@ -51,7 +51,7 @@
 
 >[!corollary] 推论1
 >对于收敛的函数项级数$(f_n)$, 若对每个$f_n\in\csp^1$, 则
->$$\dd x{}\sum_{n=1}^\infty{f_n}=\sum_{n=1}^\infty{\dd x{f_n}}$$
+>$$\dd x{}\sum_{n=1}^\infty{f_n(x)}=\sum_{n=1}^\infty{\dd x{f_n(x)}}$$
 
 >[!proof]
 >只需令$I$为$\Z_+$, 测度为计数测度即可.
