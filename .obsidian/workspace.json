@@ -277,8 +277,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f68ec7d6c017334e",
+  "active": "b8813179ce1b5ae2",
   "lastOpenFiles": [
+    "README.md",
     "分析/数学分析基础/实数.md",
     "拓扑/点集拓扑/集合上构造拓扑/度量拓扑.md",
     "分析/实分析/积分不等式/广义Minkowski不等式.md",
@@ -305,7 +306,6 @@
     "拓扑/点集拓扑/函数空间拓扑/一致拓扑.md",
     "分析/复分析/复数基础/辐角.md",
     "分析/复分析/解析函数",
-    "分析/复分析/复数基础/复内积.md",
     "分析/复分析/复数基础",
     "images",
     "道路同伦.png",
