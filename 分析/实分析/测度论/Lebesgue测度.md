@@ -38,7 +38,7 @@ $$\operatorname{len}I=\diam I=\sup I-\inf I$$
 由[[Carathéodory定理]]成立, 我们可以定义:
 
 >[!definition] Lebesgue测度
->令$\mc M$为$\R$中全体满足Carathéodory条件的子集构成的族, $m=m*|_\mc M$是限制映射, 则$(\R,\mc M,m)$构成一个[[测度空间]], 称测度$m$为**Lebesgue测度**(Lebesgue measure), 当对该测度积分时, 我们常常可以省略$\d m$, 即
+>令$\mc M$为$\R$中全体满足Carathéodory条件的子集构成的族, $m=m^*|_\mc M$是限制映射, 则$(\R,\mc M,m)$构成一个[[测度空间]], 称测度$m$为**Lebesgue测度**(Lebesgue measure), 当对该测度积分时, 我们常常可以省略$\d m$, 即
 >$$\int_X{f\,\d m}\quad\text{可简写作}\quad\int_X{f}$$
 >显然, 我们定义的Lebesgue测度$m$还满足次可数可加性. $\R^d$的Lebesgue测度空间$(\R^d,\mc M_d,m_d)$由$\R$的积空间定义.
 

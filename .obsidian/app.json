@@ -40,7 +40,8 @@
     "downscalePercent": 100
   },
   "userIgnoreFilters": [
-    "PDFs/"
+    "PDFs/",
+    "templates/"
   ],
   "showIndentGuide": false
 }

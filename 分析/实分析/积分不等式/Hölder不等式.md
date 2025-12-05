@@ -3,7 +3,7 @@
 >[!theorem] Hölder不等式
 >设$p\in[1,\infty]$, $q$满足$1 /p+1 /q=1$ (即$p,q$为[[共轭指数]]), $f,g$为$X$上的[[可测映射|可测函数]], 则
 >$$\int_X{|fg|\,\d\mu}=\norm{fg}_1\le\norm{f}_p\norm{g}_q=\left(\int_X{|f|^p\,\d\mu}\right)^{1/p}\left(\int_X{|g|^q\,\d\mu}\right)^{1/q}$$
->并且若$f\in \ms{L}^p$, $g\in L^q$, 则$fg\in \ms{L}^1$. 等号成立当且仅当:
+>并且若$f\in \ms{L}^p$, $g\in \ms L^q$, 则$fg\in \ms{L}^1$. 等号成立当且仅当:
 >- 当$1<p,q<\infty$时, $|f|^p$和$|g|^q$[[几乎处处]]成比值为常数.
 >- 当$p=1,q=\infty$时, $g$在$f$的零点集外几乎处处等于$\norm{g}_\infty$.
 

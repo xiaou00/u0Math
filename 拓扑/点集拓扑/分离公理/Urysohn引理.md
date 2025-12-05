@@ -2,7 +2,7 @@
 
 Urysohn引理是一个非常至关重要的引理, 他是证明一些重要结论, 例如[[Urysohn度量化定理]], [[Tietze扩张定理]]以及一个关于流形嵌入定理的重要工具. 而这个引理的证明思想也非常的新颖, 下面是引理的陈述:
 
->[!lemma] Urysohn引理
+>[!theorem] Urysohn引理
 >设$X$为[[正规空间]], $A,B$是$X$中两个无交的闭集, $[a,b]$是实直线上的一个闭区间, 则存在一个连续映射
 >$$f:X\to[a,b]$$
 >使得$x\in A\implies f(x)=a$, $y\in B\implies f(y)=b$. 即, 正规空间上的任何两个闭区间都是[[分离公理|函数可分离]]的.
@@ -68,4 +68,24 @@ Urysohn引理是一个非常至关重要的引理, 他是证明一些重要结�
 >```
 >首先注意到$x_0\in U$, 这是因为由L2以及$f(x_0)<q$立即得出$x_0\in U_q$, 同时由L1及$f(x_0)>p$可见$x_0\notin\clos{U_p}$.
 >我们证明$f(U)\subset(c,d)$. 令$x\in U$, 此时有$x\in U_q\subset\clos{U_q}$, 由L1可见$f(x)\le q$. 又由于$x\notin\clos{U_p}$, 从而一定$x\notin U_p$, 由L2有$f(x)\ge p$, 从而$f(x)\in[p,q]\subset(c,d)$, 结合[[连续映射|此页面定理1]], 立即得到$f$是连续的, 故$f$就是所求的函数, 证毕.
+
+>[!corollary] Urysohn引理, 局部紧形式
+>设$X$是[[局部紧致]]的[[Hausdorff空间]], $V$是$X$中的开集, $K\subset V$且$K$是紧集, 则存在一个$f\in\csp_c(X,\R)$, 且对一切$x\in X$, $0\le f(x)\le 1$使得:
+>1. 对任意$x\in K$, $f(x)=1$.
+>2. $\supp f\subset V$.
+
+>[!proof]
+>由于$X$是局部紧致的Hausdorff空间, 并且$K\subset V$, $K$是紧集, $V$是开集, 我们可以找到一个开集$W$使得:
+>$$K\subset W\subset\clos W\subset V$$
+>且$\overline W$是紧集, 这是因为任给$x\in K$都有包含$x$的邻域$U_x$使得$\clos{U_x}$是紧集, 且$\clos{U_x}\subset V$. 全体$U_x$构成$K$的开覆盖, 由$K$的紧性存在有限子覆盖$\set{U_{x_1},\ldots,U_{x_n}}$, 取其并$W=\bigcup_{i=1}^n{U_{x_i}}$就是我们要找的$W$.
+>考虑紧子集$C=\clos W$, 显然$C$是Hausdorff空间的子空间, 从而是Hausdorff空间, 又由于$C$紧致, 从而$C$是[[正规空间]], 于是由经典Urysohn引理, 我们取
+>$$A=K,\quad B=C\setminus W$$
+>显然是两个无交的闭集, 从而由Urysohn引理, 存在一个连续函数$g:C\to[0,1]$使得
+>$$g|_A=g|_K=1,\quad g|_B=g|_{C\setminus W}=0$$
+>只需将其延拓到整个空间上
+>$$f(x)=\begin{cases}
+g(x)&x\in C \\
+0&x\in X\setminus C
+\end{cases}$$
+>容易验证这就是所求的函数.
 

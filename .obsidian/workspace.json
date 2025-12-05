@@ -4,41 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "a6d9038c127948cc",
+        "id": "5c6c6ccb98488cea",
         "type": "tabs",
         "children": [
           {
-            "id": "4c0ebac65eeedf02",
+            "id": "ed4a60ab0033bbc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "范畴论/极限理论/极限.md",
+                "file": "分析/复分析/解析函数/复微分.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "极限"
+              "title": "复微分"
             }
           },
           {
-            "id": "cdae9602f1a8f9a7",
+            "id": "2fd19c4008d7d59d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "范畴论/极限理论/完备范畴&余完备范畴.md",
+                "file": "分析/微分/Fréchet微分.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "完备范畴&余完备范畴"
+              "title": "Fréchet微分"
             }
           },
           {
-            "id": "6b205a8839c10040",
+            "id": "28db7ecd1610a05a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "分析/实分析/积分不等式/广义Minkowski不等式.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "广义Minkowski不等式"
+            }
+          },
+          {
+            "id": "f68ec7d6c017334e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -46,79 +61,51 @@
               "icon": "lucide-git-fork",
               "title": "关系图谱"
             }
-          },
-          {
-            "id": "47e8aba2c2495a8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "范畴论/极限理论/拉回.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "拉回"
-            }
-          },
-          {
-            "id": "fc63125ad85768d2",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://q.uiver.app/"
-              },
-              "icon": "lucide-file",
-              "title": "quiver: a modern commutative diagram editor"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
-        "id": "4ad9ffb491dbf0c9",
+        "id": "1e13636780d2313b",
         "type": "tabs",
         "children": [
           {
-            "id": "4961fd0ee3a09852",
+            "id": "fa4fce7d7dd97342",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://gemini.google.com/app/65fc428325a9c6d3"
+                "url": "file:///D:/u0%E3%81%AE%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E3%8A%99%EF%B8%8F/%E5%A4%8D%E5%88%86%E6%9E%90%20(Lars%20V.%20Ahlfors)%20(Z-Library).pdf"
+              },
+              "icon": "lucide-file",
+              "title": "复分析 (Lars V. Ahlfors) (Z-Library).pdf"
+            }
+          },
+          {
+            "id": "b259f3d8022f064e",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E8%A5%BF-%E9%BB%8E%E6%9B%BC%E6%96%B9%E7%A8%8B"
+              },
+              "icon": "lucide-file",
+              "title": "柯西-黎曼方程 - 维基百科，自由的百科全书"
+            }
+          },
+          {
+            "id": "a1a3e0f6fab257d2",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://gemini.google.com/app/e38575bf18d988fb"
               },
               "icon": "lucide-file",
               "title": "Google Gemini"
             }
-          },
-          {
-            "id": "fa7ff1fb7111b5d4",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "file:///D:/u0%E3%81%AE%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E3%8A%99%EF%B8%8F/%E5%AE%9E%E5%88%86%E6%9E%90%20Stein_cn.pdf"
-              },
-              "icon": "lucide-file",
-              "title": "实分析 Stein_cn.pdf"
-            }
-          },
-          {
-            "id": "c042982ce4bb9d34",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "file:///D:/u0%E3%81%AE%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E3%8A%99%EF%B8%8F/%E8%8C%83%E7%95%B4%E8%AE%BA%20(%E8%B4%BA%E4%BC%9F)%20(Z-Library).pdf"
-              },
-              "icon": "lucide-file",
-              "title": "范畴论 (贺伟) (Z-Library).pdf"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "单态射",
+                "query": "零测集",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -210,12 +197,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数/抽象代数/群论/子群.md",
+                "file": "拓扑/代数拓扑/基本群理论/覆叠空间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "子群 的出链列表"
+              "title": "覆叠空间 的出链列表"
             }
           },
           {
@@ -257,6 +244,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "190af0cb9030a87b",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
         "currentTab": 4
@@ -280,56 +277,56 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdae9602f1a8f9a7",
+  "active": "f68ec7d6c017334e",
   "lastOpenFiles": [
-    "范畴论/极限理论/完备范畴&余完备范畴.md",
-    "范畴论/极限理论/极限.md",
-    "范畴论/极限理论/拉回.md",
-    "范畴论/极限理论/积.md",
-    "范畴论/极限理论/推出.md",
-    "范畴论/极限理论/余积.md",
-    "范畴论/极限理论/等值子.md",
     "分析/数学分析基础/实数.md",
+    "拓扑/点集拓扑/集合上构造拓扑/度量拓扑.md",
+    "分析/实分析/积分不等式/广义Minkowski不等式.md",
+    "分析/复分析/解析函数/复微分.md",
+    "分析/实分析/积分不等式/Minkowski不等式.md",
+    "分析/泛函分析/Hilbert空间/Riesz表示定理.md",
+    "分析/泛函分析/Hilbert空间/Cauchy-Schwarz不等式.md",
+    "分析/微分/微分中值定理/中值不等式.md",
+    "分析/实分析/积分不等式/Young卷积不等式.md",
+    "分析/泛函分析/Hilbert空间/Bessel不等式.md",
+    "分析/实分析/积分不等式/Chebyshev不等式.md",
+    "分析/实分析/积分不等式/Hölder不等式.md",
+    "分析/微分/Fréchet微分.md",
+    "分析/实分析/测度论/Vitali集.md",
+    "分析/实分析/Lebesgue积分/简单函数.md",
+    "分析/实分析/Lebesgue积分/Lebesgue积分.md",
+    "代数/线性代数/线性空间/线性空间.md",
+    "分析/实分析/测度论/几乎处处.md",
+    "分析/实分析/测度论/几乎一致收敛.md",
+    "分析/实分析/测度论/零测集.md",
+    "分析/实分析/欧式空间上的积分/积分的几何意义.md",
+    "分析/实分析/测度论/可测映射.md",
+    "分析/实分析/测度论/测度空间.md",
+    "拓扑/点集拓扑/函数空间拓扑/一致拓扑.md",
+    "分析/复分析/复数基础/辐角.md",
+    "分析/复分析/解析函数",
+    "分析/复分析/复数基础/复内积.md",
+    "分析/复分析/复数基础",
+    "images",
+    "道路同伦.png",
+    "分析/复分析",
+    "分析/调和分析",
+    "分析/实分析/局部紧致Hausdorff空间",
+    "分析/调和分析/拓扑群论",
+    "分析/实分析/测度论/高阶测度论/测度的分解",
+    "分析/实分析/测度论/高阶测度论",
+    "分析/实分析/测度论/测度",
+    "Pasted image 20251125170111.png",
     "Pasted image 20251125132058.png",
-    "拓扑/点集拓扑/集合上构造拓扑/无交并拓扑.md",
-    "范畴论/极限理论/余极限.md",
-    "范畴论/范畴基础/单态射&满态射.md",
-    "拓扑/点集拓扑/紧致性/Stone-Čech紧致化.md",
-    "序理论/格论/完全格.md",
-    "集合论/ZFC公理系统.md",
-    "范畴论/范畴基础/偏序集定义的范畴.md",
-    "范畴论/极限理论/余等值子.md",
-    "范畴论/函子/自然变换.md",
-    "范畴论/范畴基础/商对象.md",
-    "范畴论/范畴基础/子对象.md",
-    "范畴论/范畴基础/终对象与始对象.md",
-    "未命名.md",
-    "分析/实分析/Hilbert空间/正交补.md",
-    "分析/分析学对象/算子空间.md",
-    "分析/实分析/Hilbert空间/Riesz表示定理.md",
-    "分析/泛函分析/线性算子/有界线性算子.md",
-    "代数/线性代数/线性空间/赋范空间.md",
-    "分析/泛函分析/线性算子",
     "一阶线性微分方程.png",
-    "范畴论/极限理论",
     "Pasted image 20251123190450.png",
     "Pasted image 20251123190449.png",
     "5ab6c33170bbe9298b1ff945ff0fb706.jpg",
     "Pasted image 20251119224832.png",
-    "copilot/copilot-conversations",
-    "copilot",
-    "分析/ODE/初等积分法/未命名",
-    "分析/ODE/初等积分法",
-    "分析/ODE",
-    "分析/微分/多元函数微分学",
-    "代数/线性代数/内积空间",
-    "分析/实分析/Hilbert空间",
     "广义Minkowski不等式.png",
     "Pasted image 20251112015249.png",
-    "Pasted image 20251021220713.png",
     "代数/抽象代数/群论/群作用/群作用(总结).canvas",
     "拓扑/点集拓扑/闭集与极限点/闭集相关内容-总结.canvas",
-    "Pasted image 20251015172235.png",
     "拓扑/点集拓扑/连续函数/连续函数-总结.canvas",
     "拓扑/点集拓扑/分离公理/(总结)可数性公理与分离公理.canvas",
     "未命名.canvas",

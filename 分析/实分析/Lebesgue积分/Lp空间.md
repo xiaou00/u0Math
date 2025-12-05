@@ -27,12 +27,12 @@
 
 若我们取[[计数测度]]空间$(\Z_+,\wp\Z_+,c)$, 其中$\N$为自然数集, $\wp\N$为幂集, $c$为计数测度. 简单的求和便是[[Lebesgue积分]]的一个特例. 故可以作以下定义:
 
->[!definition] $\el\ms{L}^p$空间
->对于$p\in(0,\infty]$, 我们定义$\el\ms{L}^p$为$\R^\omega$(或$\C^\omega$)中全体$p$次幂绝对收敛的[[级数]]构成的空间, 即
->$$\el\ms{L}^p:=\set{(a_n)_{n\in\Z_+}\,\Big|\,\sum_{n=1}^\infty{|a_n|^p}<\infty}$$
+>[!definition] $\ell^p$空间
+>对于$p\in(0,\infty]$, 我们定义$\ell^p$为$\R^\omega$(或$\C^\omega$)中全体$p$次幂绝对收敛的[[级数]]构成的空间, 即
+>$$\ell^p:=\set{(a_n)_{n\in\Z_+}\,\Big|\,\sum_{n=1}^\infty{|a_n|^p}<\infty}$$
 >同样可以定义范数:
 >$$\norm{(a_n)}_p=\left(\sum_{n=1}^\infty{|a_n|^p}\right)^{1/p}$$
->若$p\ge1$, 则空间构成[[Banach空间]]. 称之为**离散lp空间**, 记作$\el\ms{L}^p$.
+>若$p\ge1$, 则空间构成[[Banach空间]]. 称之为**离散lp空间**, 记作$\ell^p$.
 
 
 
