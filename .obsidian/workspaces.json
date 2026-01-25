@@ -1,0 +1,272 @@
+{
+  "workspaces": {
+    "Main": {
+      "main": {
+        "id": "0f6f7d88de1137a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "f2aee64ae1a7a9d6",
+            "type": "split",
+            "dimension": 26.06774668630339,
+            "children": [
+              {
+                "id": "7a098e18f77964ad",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "576b4215ad8f4994",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "拓扑/网与极限.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "网与极限"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "303033168962cb8a",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "b93447f04262de24",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {},
+                      "icon": "lucide-git-fork",
+                      "title": "关系图谱"
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "2c2ee8dc72f3793a",
+            "type": "tabs",
+            "dimension": 41.60530191458027,
+            "children": [
+              {
+                "id": "786b06e8428f5ac7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "分析/数学分析基础/数列极限/级数理论/无穷小.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "无穷小"
+                }
+              },
+              {
+                "id": "0e081952924aa255",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "file:///C:/Users/satan/Desktop/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90I_220731.pdf"
+                  },
+                  "icon": "lucide-file",
+                  "title": "数学分析I_220731.pdf"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "4ad9ffb491dbf0c9",
+            "type": "tabs",
+            "dimension": 32.326951399116346,
+            "children": [
+              {
+                "id": "4961fd0ee3a09852",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://gemini.google.com/app/1cfb09323bb0bfd9"
+                  },
+                  "icon": "lucide-file",
+                  "title": "Google Gemini"
+                }
+              },
+              {
+                "id": "8e8be36117e46f20",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://www.wolframalpha.com/"
+                  },
+                  "icon": "lucide-file",
+                  "title": "Wolfram|Alpha：计算型智能"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "0cd35f5aa72a7265",
+        "type": "split",
+        "children": [
+          {
+            "id": "4812d21f70a29d48",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7cbaa6b651d38023",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "1e4b9d9c7238ef06",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "4048ca2599c1a6d1",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 256.5110321044922,
+        "collapsed": true
+      },
+      "right": {
+        "id": "cfa8e8d39211b9b9",
+        "type": "split",
+        "children": [
+          {
+            "id": "860fff772ef3856d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3f72e33e9f2fad81",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "反向链接"
+                }
+              },
+              {
+                "id": "e19057437112f06e",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "代数/抽象代数/群论/子群.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "子群 的出链列表"
+                }
+              },
+              {
+                "id": "0508243977ab2927",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "77f92f2b42e6b276",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "拓扑/点集拓扑/连续函数/商映射.md",
+                    "followCursor": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "商映射 的大纲"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:创建新数据库": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "templater-obsidian:Templater": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "0e081952924aa255",
+      "mtime": "2025-10-11T12:53:57+03:00"
+    }
+  },
+  "active": "Main"
+}

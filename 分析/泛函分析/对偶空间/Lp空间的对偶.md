@@ -1,0 +1,38 @@
+#分析 
+
+>[!thm] $\ms L^p$空间的对偶
+>设$(X,\Sigma,\mu)$为[[测度空间]], 当$1\le p<\infty$, 且$q$为$p$的[[共轭指数]]时, 有
+>$$(\ms L^p)^*\cong\ms L^q$$
+>为等距同构.
+
+>[!pf]
+>对于给定的$g\in\ms L^q$, 定义映射
+>$$\Phi_g(h)=\int_X{hg\,\d\mu}$$
+>由[[Hölder不等式]], 
+>$$|\Phi_g(h)|=\left|\int_X{hg\,\d\mu}\right|\le\lVert{h}\rVert_p\lVert{g}\rVert_q$$
+>这说明$\Phi_g$是$\ms L^p$上的有界线性泛函, 且其算子范数$\norm{\Phi_g}_{\rm op}\le\norm{g}_q$. 下面, 假设选定一个连续的线性泛函$f\in(\ms L^p)^*$, 我们要找到对应的$g$.
+>
+>对于$E\in\Sigma$且$\mu(E)<\infty$, 显然$\chi_E\in\ms L^p$, 我们可以定义一个集函数$\nu(E)=f(\chi_E)$.
+>考虑 $\nu$ 的[[Jordan分解]], 有[[测度]]$\nu^+,\nu^-$. 显然这两个测度是有限的, 因此$\nu$是有限变差的.
+>考虑 $\mu(E)=0$ 时, 显然
+>$$|\nu(E)|=|f(\chi_E)|\le\lVert{f}\rVert_{\rm op}\cdot\lVert{\chi_E}\rVert_p=0$$
+>因此$\nu\ll\mu$是[[绝对连续]]的. 由[[Radon-Nikodym定理]], 令$g$为$\nu$关于$\mu$的[[Radon-Nikodym导数]], 它在几乎处处的意义下唯一.
+>下面我们证明$g\in\ms L^q$且$\norm{g}_q=\norm{f}_{\rm op}$. 为此, 我们构造$h$如下
+>$$h(x)=\begin{cases}
+|g(x)|^{q-1}\cdot\mathrm{sgn}(g(x))&|g(x)|\le n\\
+0&|g(x)|>n
+\end{cases}$$
+>我们引入截断值$n$是为了确保积分$h$的良定义, 最后令$n\to\infty$即可. 显然,
+>$$|h|^p=(|g|^{q-1})^p=|g|^{p(q-1)}=|g|^q$$
+>从而
+>$$\norm{h}_p=\left(\int_X{|h|^p\,\d\mu}\right)^{1/p}=\left(\int_X{|g|^q\,\d\mu}\right)^{1/p}$$
+>至此证明了$g\in\ms{L}^q$ (放缩即可), 我们继续. 由$f$是有界线性泛函, 
+>$$|f(h)|\le\norm{f}_{\rm op}\cdot\norm{h}_p=\norm{f}_{\rm op}\cdot\left(\int_X{|g|^q\,\d\mu}\right)^{1/p}\tag{I}$$
+>又由$f$的定义
+>$$f(h)=\int_X{hg\,\d\mu}=\int_X{|g|^{q-1}\cdot|g|\,\d\mu}=\int_X{|g|^q\,\d\mu}\tag{II}$$
+>联立(I), (II), 有
+>$$\int_{X}{|g|^p\,\d\mu}\le\norm{f}_{\rm op}\cdot\left(\int_X{|g|^q\,\d\mu}\right)^{1/p}$$
+>两边同除$\left(\int_X{|g|^q\,\d\mu}\right)^{1/p}$, 由$1-1/p=1/q$, 有
+>$$\left(\int_X{|g|^q\,\d\mu}\right)^{1/q}\le\norm{f}_{\rm op}$$
+>结合之前的Hölder不等式就说明了$\norm{g}_q=\norm{f}_{\rm op}$, 即等距性.
+

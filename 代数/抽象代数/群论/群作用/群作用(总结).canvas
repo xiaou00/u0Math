@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"41797b2f42faefb0","type":"text","text":"[[稳定子]] $\\stab xG$","x":380,"y":-60,"width":197,"height":50},
+		{"id":"31983b228298f593","type":"text","text":"元素不动点集 $\\fix g\\Omega$","x":380,"y":-420,"width":197,"height":54},
+		{"id":"042cc1365d685afc","type":"text","text":"[[不动点组合公式]]\n$\\sum_{x\\in \\Omega}{|\\stab xG|}=\\sum_{g\\in G}{|\\fix g\\Omega|}$","x":314,"y":-240,"width":329,"height":83},
+		{"id":"3ada24e087790525","type":"text","text":"[[轨道]] $\\orb xG$","x":-420,"y":-60,"width":197,"height":50},
+		{"id":"bc6be5b01b56469a","type":"text","text":"[[类方程]]\n$|\\Omega|=|\\fix G\\Omega|+\\sum_{i=1}^r|\\orb{x_i}{G}|$","x":-476,"y":-240,"width":310,"height":82},
+		{"id":"333e1b91ef4fc507","type":"text","text":"群[[不动点集]]\n$\\fix G\\Omega$","x":-420,"y":-420,"width":197,"height":62},
+		{"id":"c499779d4a0c24a0","type":"text","text":"轨道划分 $\\Omega/G$","x":-102,"y":-228,"width":197,"height":60},
+		{"id":"9b43385d6faf7661","type":"text","text":"$\\fix G\\Omega=\\bigcap_{g\\in G}{\\fix g\\Omega}$","x":-25,"y":-640,"width":250,"height":60},
+		{"id":"970c0c1fce285b93","type":"text","text":"[[轨道-稳定子定理]]\n$|\\orb xG|\\cdot|\\stab xG|=|G|$","x":-35,"y":100,"width":260,"height":80},
+		{"id":"fa0b3325c9aaaede","type":"text","text":"$\\Omega=\\bigsqcup_{i\\in I}{\\orb xG}$","x":-115,"y":-65,"width":223,"height":60},
+		{"id":"6597a1d26ed8ac4f","type":"text","text":"[[Burnside引理]]\n$$|\\Omega /G|=\\frac{1}{|G|}\\sum_{g\\in G}{\\fix g\\Omega}$$","x":-25,"y":-451,"width":250,"height":112},
+		{"id":"4e8a1077e8a46eb5","type":"text","text":"[[中心化子]]\n$\\mc C_G(x)=\\set{g\\in G\\mid gx=xg}$","x":354,"y":280,"width":250,"height":60},
+		{"id":"070660e266bc6d88","type":"text","text":"[[群中心]]\n$\\mc Z(G)=\\set{a\\in G\\mid ax=xa,\\forall x\\in G}$","x":-920,"y":-240,"width":302,"height":92},
+		{"id":"a24041a142c5255a","type":"text","text":"$$\\mc Z(G)=\\bigcap_{g\\in G}{\\mc C_G(g)}$$","x":-906,"y":266,"width":275,"height":88}
+	],
+	"edges":[
+		{"id":"badc70e9d403b1ac","fromNode":"970c0c1fce285b93","fromSide":"left","toNode":"3ada24e087790525","toSide":"bottom"},
+		{"id":"bb54aea5578f2073","fromNode":"970c0c1fce285b93","fromSide":"right","toNode":"41797b2f42faefb0","toSide":"bottom"},
+		{"id":"4c0d5edb07006473","fromNode":"042cc1365d685afc","fromSide":"bottom","toNode":"41797b2f42faefb0","toSide":"top"},
+		{"id":"f98c615f56f0945d","fromNode":"042cc1365d685afc","fromSide":"top","toNode":"31983b228298f593","toSide":"bottom"},
+		{"id":"7dd06ee5e5538217","fromNode":"9b43385d6faf7661","fromSide":"right","toNode":"31983b228298f593","toSide":"top"},
+		{"id":"9febb489c5a55ae8","fromNode":"9b43385d6faf7661","fromSide":"left","toNode":"333e1b91ef4fc507","toSide":"top"},
+		{"id":"edd223835d264b41","fromNode":"bc6be5b01b56469a","fromSide":"top","toNode":"333e1b91ef4fc507","toSide":"bottom"},
+		{"id":"c38a3d63e99432e8","fromNode":"bc6be5b01b56469a","fromSide":"bottom","toNode":"3ada24e087790525","toSide":"top"},
+		{"id":"fb01dbfd645be06c","fromNode":"fa0b3325c9aaaede","fromSide":"left","toNode":"3ada24e087790525","toSide":"right"},
+		{"id":"427a3134096854d8","fromNode":"fa0b3325c9aaaede","fromSide":"top","toNode":"c499779d4a0c24a0","toSide":"bottom"},
+		{"id":"aa0378ef802e359b","fromNode":"6597a1d26ed8ac4f","fromSide":"left","toNode":"c499779d4a0c24a0","toSide":"top"},
+		{"id":"f6d3612afe7319a3","fromNode":"6597a1d26ed8ac4f","fromSide":"right","toNode":"31983b228298f593","toSide":"left"},
+		{"id":"e68c78bade910568","fromNode":"41797b2f42faefb0","fromSide":"right","toNode":"4e8a1077e8a46eb5","toSide":"right","label":"共轭作用"},
+		{"id":"649081850caad1ef","fromNode":"333e1b91ef4fc507","fromSide":"left","toNode":"070660e266bc6d88","toSide":"top","label":"共轭作用"},
+		{"id":"68c636cb783703d5","fromNode":"a24041a142c5255a","fromSide":"top","toNode":"070660e266bc6d88","toSide":"bottom"},
+		{"id":"af2249f62d3320cc","fromNode":"a24041a142c5255a","fromSide":"right","toNode":"4e8a1077e8a46eb5","toSide":"left"}
+	]
+}

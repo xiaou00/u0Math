@@ -1,0 +1,7 @@
+mjx-container {
+    font-family: "Latin Modern Math", "STIX Two Math", serif !important;
+}
+
+mjx-math .MJX-TEX {
+    font-family: "Latin Modern Math" !important;
+}
