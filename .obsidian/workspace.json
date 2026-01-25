@@ -183,8 +183,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -209,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4ad0d17f2531184",
+  "active": "b8813179ce1b5ae2",
   "lastOpenFiles": [
     "拓扑/代数拓扑/同调论/单纯同调/Δ-复形.md",
     "拓扑/代数拓扑/同调论/单纯同调/单纯复形.md",
