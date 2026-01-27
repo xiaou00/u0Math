@@ -5,13 +5,13 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:代数",
       "color": {
         "a": 1,
-        "rgb": 65535
+        "rgb": 65403
       }
     },
     {
@@ -25,7 +25,7 @@
       "query": "path:范畴论",
       "color": {
         "a": 1,
-        "rgb": 65535
+        "rgb": 65403
       }
     }
   ],
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.03622280665553524,
+  "scale": 0.08150131497495428,
   "close": true
 }
