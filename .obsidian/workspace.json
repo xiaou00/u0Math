@@ -4,55 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "85959d0e8313b598",
+        "id": "2c2ee8dc72f3793a",
         "type": "tabs",
         "children": [
           {
-            "id": "c4ad0d17f2531184",
+            "id": "535e07846aff1f06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "拓扑/代数拓扑/同调论/奇异同调/奇异同调.md",
+                "file": "几何/代数几何/概形的态射/有理映射/勾股数的通项公式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "奇异同调"
+              "title": "勾股数的通项公式"
             }
           },
           {
-            "id": "9b4d08d9d73fd700",
+            "id": "5382569f4d92e54a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代数/同调代数/正合序列/蛇形引理.md",
+                "file": "几何/代数几何/概形的态射/有理映射/支配有理映射.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "蛇形引理"
+              "title": "支配有理映射"
             }
           },
           {
-            "id": "fb2984b61ac97c81",
+            "id": "46b858e455c8b710",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "分析/实分析/积分不等式/广义Minkowski不等式.md",
+                "file": "几何/代数几何/技巧/层公理的进一步解析.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "广义Minkowski不等式"
+              "title": "层公理的进一步解析"
+            }
+          },
+          {
+            "id": "cf6f02b931b55377",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "代数/范畴论/极限进阶/常值图表函子.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "常值图表函子"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -84,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\Hom",
+                "query": "Ass",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -92,7 +108,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -109,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5110321044922,
-    "collapsed": true
+    "width": 256.5110321044922
   },
   "right": {
     "id": "cfa8e8d39211b9b9",
@@ -126,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分析/泛函分析/Hahn-Banach定理/Banach极限.md",
+                "file": "代数/范畴论/极限进阶/常值图表函子.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +151,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Banach极限 的反向链接列表"
+              "title": "Backlinks for 常值图表函子"
             }
           },
           {
@@ -145,12 +160,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分析/泛函分析/Hahn-Banach定理/Banach极限.md",
+                "file": "几何/代数几何/概形的态射/双有理映射.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Banach极限 的出链列表"
+              "title": "Outgoing links from 双有理映射"
             }
           },
           {
@@ -174,37 +189,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "范畴论/极限理论/余极限.md",
+                "file": "拓扑/点集拓扑/连续函数/商映射.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "余极限 的大纲"
+              "title": "商映射 的大纲"
             }
           },
           {
-            "id": "b8813179ce1b5ae2",
+            "id": "16676ea3816f508c",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "190af0cb9030a87b",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -212,67 +220,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-git:Open Git source control": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "c4ad0d17f2531184",
+  "active": "cf6f02b931b55377",
   "lastOpenFiles": [
-    "分析/实分析/积分不等式/广义Minkowski不等式.md",
-    "拓扑/代数拓扑/同调论/奇异同调/奇异同调.md",
-    "分析/实分析/积分不等式/Minkowski不等式.md",
-    "分析/泛函分析/Hilbert空间/Cauchy-Schwarz不等式.md",
-    "代数/同调代数/正合序列/蛇形引理.md",
-    "拓扑/代数拓扑/同调论/单纯同调/Δ-复形.md",
-    "拓扑/代数拓扑/同调论/单纯同调/单纯同调.md",
-    "拓扑/代数拓扑/同调论/单纯同调/单纯形.md",
-    "分析/泛函分析/Hilbert空间/L2空间.md",
-    "拓扑/点集拓扑/紧致性/Bolzano-Weierstrass定理.md",
-    "分析/完备空间/完备空间.md",
-    "代数/线性代数/内积空间/Pythagoras定理.md",
-    "代数/线性代数/内积空间/平行四边形法则.md",
-    "代数/线性代数/内积空间/极化恒等式.md",
-    "分析/调和分析/Fourier变换/对偶群.md",
-    "分析/调和分析/Fourier变换/Fourier变换.md",
+    "范畴论/层论/预层/预层同态.md",
+    "范畴论/层论/预层/预层.md",
+    "范畴论/层论/预层/茎&芽.md",
+    "范畴论/范畴结构/Abel范畴/零对象.md",
+    "范畴论/范畴结构/Abel范畴/核&余核.md",
+    "范畴论/范畴结构/Abel范畴/双积.md",
+    "范畴论/范畴结构/Abel范畴/加性范畴.md",
+    "范畴论/范畴结构/Abel范畴/加性函子.md",
+    "范畴论/范畴结构/Abel范畴/准加法范畴.md",
+    "范畴论/范畴结构/Abel范畴/像&余像.md",
     "范畴论/范畴结构/Abel范畴/Abel范畴.md",
-    "拓扑/点集拓扑/连续函数/商拓扑.md",
-    "集合论/商集.md",
-    "templates/3dplot.md",
-    "拓扑/代数拓扑/同调论/单纯同调",
-    "分析/泛函分析/谱理论/紧算子理论/紧算子.md",
-    "分析/泛函分析/谱理论/紧算子理论/紧算子 P2.md",
-    "集合论/映射.md",
-    "分析/泛函分析/谱理论/紧算子理论/无穷维单位球的非紧性.md",
-    "分析/泛函分析/谱理论/紧算子理论/Riesz引理.md",
-    "分析/泛函分析/局部凸性/未命名.md",
-    "分析/泛函分析/谱理论/紧算子理论",
-    "分析/泛函分析/谱理论/算子的谱",
-    "分析/泛函分析/谱理论/B※代数",
-    "拓扑/代数拓扑/同调论/奇异同调/奇异单形",
-    "拓扑/代数拓扑/同调论/奇异同调",
-    "拓扑/代数拓扑/同调论",
-    "分析/泛函分析/谱理论/交换Banach代数的谱理论",
-    "preamble.sty.ZzSwVQ",
-    "preamble.sty.RMvykr",
-    "Pasted image 20260102150617.png",
-    "线性空间.png",
+    "范畴论/范畴结构/幺半范畴.md",
+    "范畴论/范畴结构/充实范畴.md",
+    "范畴论/范畴结构/Abel范畴",
+    "范畴论/范畴基础/范畴.md",
+    "范畴论/范畴基础/终对象与始对象.md",
+    "范畴论/范畴基础/积范畴.md",
+    "范畴论/范畴基础/态射函子.md",
+    "范畴论/范畴基础/广群.md",
+    "范畴论/范畴基础/平行态射.md",
+    "范畴论/范畴基础/局部小范畴.md",
+    "范畴论/范畴基础/射影对象与单射对象.md",
+    "范畴论/范畴基础/对偶.md",
+    "范畴论/范畴基础/子范畴.md",
+    "范畴论/范畴基础/子对象.md",
+    "范畴论/范畴基础/商对象.md",
+    "范畴论/范畴基础/同构.md",
+    "范畴论/层论/预层",
+    "范畴论/范畴结构",
+    "范畴论/范畴基础",
+    "范畴论/极限理论",
+    "范畴论/层论",
+    "范畴论/函子",
+    "范畴论/伴随",
+    "范畴论",
+    "常用技巧/不等式",
+    "Pasted image 20260315200403.png",
+    "Pasted image 20260306224132.png",
+    "images/rumia.png",
+    "images/dayousei.png",
+    "images/cirno.png",
+    "Pasted image 20260224212740.png",
+    "拓扑/代数拓扑/同调论/胞腔同调/Untitled.canvas",
     "Taylor定理.png",
-    "道路同伦.png",
-    "Pasted image 20251125170111.png",
-    "Pasted image 20251125132058.png",
-    "一阶线性微分方程.png",
-    "Pasted image 20251123190450.png",
-    "Pasted image 20251123190449.png",
-    "5ab6c33170bbe9298b1ff945ff0fb706.jpg",
+    "线性空间.png",
+    "Pasted image 20260201150328.png",
+    "Pasted image 20260130220232.png",
     "代数/抽象代数/群论/群作用/群作用(总结).canvas",
     "拓扑/点集拓扑/闭集与极限点/闭集相关内容-总结.canvas",
     "拓扑/点集拓扑/连续函数/连续函数-总结.canvas",

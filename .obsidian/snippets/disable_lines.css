@@ -1,0 +1,11 @@
+/* 移除笔记正文区域的外边框 */
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-rendered {
+    border: none !important;
+    box-shadow: none !important; /* 有些主题是用阴影模拟的边框 */
+}
+
+/* 针对某些主题的内层包装器 */
+.view-content {
+    border: none !important;
+}
