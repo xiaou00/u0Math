@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "几何/代数几何/概形的态射/有理映射/勾股数的通项公式.md",
+                "file": "几何/代数几何/概形的性质/概形的性质总览.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "勾股数的通项公式"
+              "title": "概形的性质总览"
             }
           },
           {
@@ -51,24 +51,9 @@
               "icon": "lucide-file",
               "title": "层公理的进一步解析"
             }
-          },
-          {
-            "id": "cf6f02b931b55377",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "代数/范畴论/极限进阶/常值图表函子.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "常值图表函子"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数/范畴论/极限进阶/常值图表函子.md",
+                "file": "几何/代数几何/概形的态射/有理映射/勾股数的通项公式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 常值图表函子"
+              "title": "Backlinks for 勾股数的通项公式"
             }
           },
           {
@@ -208,15 +193,16 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,44 +217,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cf6f02b931b55377",
+  "active": "46b858e455c8b710",
   "lastOpenFiles": [
-    "范畴论/层论/预层/预层同态.md",
-    "范畴论/层论/预层/预层.md",
-    "范畴论/层论/预层/茎&芽.md",
-    "范畴论/范畴结构/Abel范畴/零对象.md",
-    "范畴论/范畴结构/Abel范畴/核&余核.md",
-    "范畴论/范畴结构/Abel范畴/双积.md",
-    "范畴论/范畴结构/Abel范畴/加性范畴.md",
-    "范畴论/范畴结构/Abel范畴/加性函子.md",
-    "范畴论/范畴结构/Abel范畴/准加法范畴.md",
-    "范畴论/范畴结构/Abel范畴/像&余像.md",
-    "范畴论/范畴结构/Abel范畴/Abel范畴.md",
-    "范畴论/范畴结构/幺半范畴.md",
-    "范畴论/范畴结构/充实范畴.md",
-    "范畴论/范畴结构/Abel范畴",
-    "范畴论/范畴基础/范畴.md",
-    "范畴论/范畴基础/终对象与始对象.md",
-    "范畴论/范畴基础/积范畴.md",
-    "范畴论/范畴基础/态射函子.md",
-    "范畴论/范畴基础/广群.md",
-    "范畴论/范畴基础/平行态射.md",
-    "范畴论/范畴基础/局部小范畴.md",
-    "范畴论/范畴基础/射影对象与单射对象.md",
-    "范畴论/范畴基础/对偶.md",
-    "范畴论/范畴基础/子范畴.md",
-    "范畴论/范畴基础/子对象.md",
-    "范畴论/范畴基础/商对象.md",
-    "范畴论/范畴基础/同构.md",
-    "范畴论/层论/预层",
-    "范畴论/范畴结构",
-    "范畴论/范畴基础",
-    "范畴论/极限理论",
-    "范畴论/层论",
-    "范畴论/函子",
-    "范畴论/伴随",
-    "范畴论",
-    "常用技巧/不等式",
+    "几何/代数几何/概形的性质/概形的性质总览.md",
+    "几何/代数几何/概形的态射/有理映射/支配有理映射.md",
+    "preamble.sty~",
+    "几何/代数几何/技巧/层公理的进一步解析.md",
+    "几何/代数几何/概形的态射/Veronese子环.md",
+    "几何/代数几何/概形的态射/有理映射/勾股数的通项公式.md",
+    "几何/代数几何/概形/概形.md",
+    "preamble.sty",
+    "1.md",
+    "一道不等式.md",
+    "三角形.md",
+    "代数/线性代数/高阶线性代数/张量代数.md",
+    "代数/同调代数/Ext和Tor/Tor函子.md",
+    "代数/同调代数/Ext和Tor/平坦模.md",
+    "几何/代数几何/概形/仿射概形/Spec/Spec函子 P2.md",
+    "拓扑/代数拓扑/同调论/奇异同调/相对同调.md",
+    "几何/代数几何/概形/有限型.md",
+    "几何/代数几何/概形的性质/可约概形.md",
+    "几何/代数几何/概形的性质/QCQS.md",
+    "几何/代数几何/概形的性质/拟分离.md",
+    "几何/代数几何/概形的性质/拟紧致.md",
+    "几何/代数几何/概形/射影概形/射影概形.md",
+    "几何/代数几何/概形/仿射开覆盖.md",
+    "几何/代数几何/概形/射影概形/Proj/Proj构造.md",
+    "几何/代数几何/概形/射影概形/射影空间.md",
+    "几何/代数几何/杂项/幂零根.md",
+    "几何/代数几何/概形/射影概形/线形空间的射影化.md",
+    "几何/代数几何/簇/射影簇",
+    "几何/代数几何/簇/仿射簇",
+    "几何/代数几何/簇",
+    "几何/代数几何/概形/射影概形/Proj",
+    "几何/代数几何/概形/仿射概形/Spec",
+    "几何/代数几何/概形/射影概形",
+    "几何/代数几何/概形/仿射概形",
+    "几何/代数几何/概形/概形相关构造",
     "Pasted image 20260315200403.png",
     "Pasted image 20260306224132.png",
     "images/rumia.png",
