@@ -3,7 +3,7 @@
 >[!thm] Cauchy-Schwarz不等式
 >设$V$是复[[内积空间]], $\mb v,\mb w\in V$, 则一定有
 >$$\lVert{\vec v}\rVert\cdot\lVert{\vec w}\rVert\ge |\langle\mb v,\mb w\rangle|$$
->等号成立当且仅当$\mb v,\mb w$[[线性相关]].
+>等号成立当且仅当 $\mb v,\mb w$ [[线性相关]].
 
 >[!pf]
 >若$\mb v=\mb w=\mb 0$, 由内积定义, 原定理成立.

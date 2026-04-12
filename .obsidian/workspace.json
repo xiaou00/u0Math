@@ -4,56 +4,101 @@
     "type": "split",
     "children": [
       {
-        "id": "2c2ee8dc72f3793a",
+        "id": "8cfd45f9b6056a26",
         "type": "tabs",
         "children": [
           {
-            "id": "535e07846aff1f06",
+            "id": "2004285f36352af8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "几何/代数几何/概形的性质/概形的性质总览.md",
+                "file": "代数/交换代数/维数/Krull定理.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "概形的性质总览"
+              "title": "Krull定理"
             }
           },
           {
-            "id": "5382569f4d92e54a",
+            "id": "4a1ec2938329c000",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "几何/代数几何/概形的态射/有理映射/支配有理映射.md",
+                "file": "几何/代数几何/概形/概形.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "支配有理映射"
+              "title": "概形"
             }
           },
           {
-            "id": "46b858e455c8b710",
+            "id": "6e8427a9207a44f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "几何/代数几何/技巧/层公理的进一步解析.md",
+                "file": "代数/交换代数/Noether环/Nakayama引理.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "层公理的进一步解析"
+              "title": "Nakayama引理"
+            }
+          },
+          {
+            "id": "1dba6c4eaae8f02b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "代数/交换代数/正规性/整扩张.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "整扩张"
+            }
+          },
+          {
+            "id": "ba03dc163f1ddbfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "几何/代数几何/维数/Noether正规化.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Noether正规化"
+            }
+          },
+          {
+            "id": "9499118de8c636ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "代数/抽象代数/群论/群.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "群"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Ass",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5110321044922
+    "width": 256.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "cfa8e8d39211b9b9",
@@ -126,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "几何/代数几何/概形的态射/有理映射/勾股数的通项公式.md",
+                "file": "几何/代数几何/维数/余维数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +182,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 勾股数的通项公式"
+              "title": "Backlinks for 余维数"
             }
           },
           {
@@ -145,12 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "几何/代数几何/概形的态射/双有理映射.md",
+                "file": "代数/扩张理论/代数元.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 双有理映射"
+              "title": "Outgoing links from 代数元"
             }
           },
           {
@@ -196,6 +242,16 @@
               "icon": "lucide-ghost",
               "title": "all-properties"
             }
+          },
+          {
+            "id": "3417a1bae684c025",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
           }
         ]
       }
@@ -208,63 +264,65 @@
     "hiddenItems": {
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "bases:Create new base": false,
-      "templater-obsidian:Templater": false
+      "workspaces:Manage workspace layouts": true,
+      "bases:Create new base": true,
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "46b858e455c8b710",
+  "active": "4a1ec2938329c000",
   "lastOpenFiles": [
-    "几何/代数几何/概形的性质/概形的性质总览.md",
-    "几何/代数几何/概形的态射/有理映射/支配有理映射.md",
+    "几何/代数几何/概形的性质/Noether概形.md",
+    "代数/交换代数/维数/Krull定理.md",
+    "几何/代数几何/维数/余维数.md",
+    "代数/交换代数/正规性/整扩张.md",
+    "代数/交换代数/Noether环/Nakayama引理.md",
+    "代数/交换代数/Noether环/Jacobson根.md",
+    "代数/交换代数/Noether环/乘法封闭子集.md",
+    "几何/代数几何/维数/超越度.md",
+    "代数/交换代数/Noether环/回避引理.md",
+    "几何/代数几何/维数/Krull维数.md",
+    "代数/抽象代数/群论/群.md",
+    "几何/代数几何/维数/Noether正规化.md",
+    "分析/复分析/Cauchy积分公式/Liouville定理.md",
+    "代数/线性代数/内积空间/规范正交.md",
+    "几何/代数几何/概形的态射/态射的类别/概形的态射总览.md",
+    "代数/交换代数/赋值环/离散赋值环.md",
+    "代数/交换代数/正规性/整元素.md",
+    "几何/代数几何/概形的态射/态射的类别/整态射.md",
+    "分析/微分/微分中值定理/l'Hospital法则.md",
+    "代数/交换代数/维数/Noether环的Krull维数.md",
+    "代数/扩张理论/超越基.md",
+    "代数/扩张理论/代数无关.md",
+    "代数/扩张理论/超越元.md",
+    "Untitled 3.md",
+    "代数/扩张理论/中间域.md",
+    "代数/扩张理论/扩张塔.md",
+    "几何/代数几何/维数",
+    "几何/代数几何/代数群",
+    "几何/代数几何/概形的态射/固有态射/固有性.md.tmp.855478.1775604385650",
+    "几何/代数几何/概形的态射/固有态射/固有性.md.tmp.855478.1775604304149",
+    "Pasted image 20260406234048.png",
+    "Pasted image 20260406234036.png",
+    "Pasted image 20260406234031.png",
+    "几何/代数几何/概形的态射/固有态射",
+    "几何/代数几何/概形的态射/分离态射",
+    "Pasted image 20260401000541.png",
+    "几何/代数几何/纤维积",
     "preamble.sty~",
-    "几何/代数几何/技巧/层公理的进一步解析.md",
-    "几何/代数几何/概形的态射/Veronese子环.md",
-    "几何/代数几何/概形的态射/有理映射/勾股数的通项公式.md",
-    "几何/代数几何/概形/概形.md",
-    "preamble.sty",
-    "1.md",
-    "一道不等式.md",
-    "三角形.md",
-    "代数/线性代数/高阶线性代数/张量代数.md",
-    "代数/同调代数/Ext和Tor/Tor函子.md",
-    "代数/同调代数/Ext和Tor/平坦模.md",
-    "几何/代数几何/概形/仿射概形/Spec/Spec函子 P2.md",
-    "拓扑/代数拓扑/同调论/奇异同调/相对同调.md",
-    "几何/代数几何/概形/有限型.md",
-    "几何/代数几何/概形的性质/可约概形.md",
-    "几何/代数几何/概形的性质/QCQS.md",
-    "几何/代数几何/概形的性质/拟分离.md",
-    "几何/代数几何/概形的性质/拟紧致.md",
-    "几何/代数几何/概形/射影概形/射影概形.md",
-    "几何/代数几何/概形/仿射开覆盖.md",
-    "几何/代数几何/概形/射影概形/Proj/Proj构造.md",
-    "几何/代数几何/概形/射影概形/射影空间.md",
-    "几何/代数几何/杂项/幂零根.md",
-    "几何/代数几何/概形/射影概形/线形空间的射影化.md",
-    "几何/代数几何/簇/射影簇",
-    "几何/代数几何/簇/仿射簇",
-    "几何/代数几何/簇",
-    "几何/代数几何/概形/射影概形/Proj",
-    "几何/代数几何/概形/仿射概形/Spec",
-    "几何/代数几何/概形/射影概形",
-    "几何/代数几何/概形/仿射概形",
-    "几何/代数几何/概形/概形相关构造",
+    "几何/代数几何/闭嵌入/仿射锥和射影锥.md~",
+    "几何/代数几何/闭嵌入",
+    "几何/代数几何/消去理论/Untitled.canvas",
+    "Pasted image 20260317003235.png",
     "Pasted image 20260315200403.png",
     "Pasted image 20260306224132.png",
     "images/rumia.png",
     "images/dayousei.png",
     "images/cirno.png",
-    "Pasted image 20260224212740.png",
     "拓扑/代数拓扑/同调论/胞腔同调/Untitled.canvas",
-    "Taylor定理.png",
-    "线性空间.png",
-    "Pasted image 20260201150328.png",
-    "Pasted image 20260130220232.png",
     "代数/抽象代数/群论/群作用/群作用(总结).canvas",
     "拓扑/点集拓扑/闭集与极限点/闭集相关内容-总结.canvas",
     "拓扑/点集拓扑/连续函数/连续函数-总结.canvas",

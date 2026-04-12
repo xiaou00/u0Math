@@ -16,7 +16,7 @@
 >$$H=\int_X{\left(\int_Y{g(x)^{p-1}f(x,y)\,\d\nu}(y)\right)\,\d\mu}(x)=\int_Y{\left(\int_X{g(x)^{p-1}f(x,y)\,\d\mu}(x)\right)\,\d\nu}(y)\tag{I}$$
 >不妨记
 >$$I=\int_X{g(x)^{p-1}f(x,y)\,\d\mu}(x)$$
->接下来我们对$I$作用[[Hölder不等式]]: 考虑$I$作为$g(x)^{p-1}$与$f(x,y)$乘积的积分, 则
+>接下来我们对$I$作用[[Hoelder不等式]]: 考虑$I$作为$g(x)^{p-1}$与$f(x,y)$乘积的积分, 则
 >$$I\le\left(\int_X{(g(x)^{p-q})^q\,\d\mu}(x)\right)^{1/q}\left(\int_X{f(x,y)^p\,\d\mu}(x)\right)^{1/p}=\left(\int_X{g(x)^p\,\d\mu}(x)\right)^{1/q}\cdot\norm{f(\cdot,y)}_{\ms{L}^p(\mu)}$$
 >代回(I)有
 >$$H\le\int_Y{\left[\left(\int_X{g(x)^p\,\d\mu}(x)\right)^{1/q}\cdot\norm{f(\cdot,y)}_{\ms{L}^p(\mu)}\right]\,\d\nu}(y)$$

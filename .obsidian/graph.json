@@ -1,44 +1,22 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:代数",
-      "color": {
-        "a": 1,
-        "rgb": 65403
-      }
-    },
-    {
-      "query": "path:分析",
-      "color": {
-        "a": 1,
-        "rgb": 16711888
-      }
-    },
-    {
-      "query": "path:范畴论",
-      "color": {
-        "a": 1,
-        "rgb": 65403
-      }
-    }
-  ],
+  "collapse-color-groups": true,
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -2.2,
-  "nodeSizeMultiplier": 1.01013460579731,
-  "lineSizeMultiplier": 0.784693333333333,
-  "collapse-forces": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.0078125,
+  "scale": 0.08133310203995439,
   "close": true
 }

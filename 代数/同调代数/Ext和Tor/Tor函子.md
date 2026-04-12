@@ -1,6 +1,6 @@
 #代数 
 
-Tor函子名自Torsion, 即绕转的意思. 它衡量的是[[代数/同调代数/Ext和Tor/张量积]]的"扭曲"程度. 通常地说, Tor函子就是 $\otimes$ 函子的[[经典导出函子|左导出函子]].
+Tor函子名自Torsion, 即绕转的意思. 它衡量的是[[张量积函子]]的"扭曲"程度. 通常地说, Tor函子就是 $\otimes$ 函子的[[经典导出函子|左导出函子]].
 
 >[!def] Tor函子
 >对任何环 $R,S,T$, 双函子 $\otimes_S$ 显然是[[平衡函子]], 因此可对每个 $n\in\Z$ 定义双函子
@@ -16,7 +16,7 @@ Tor函子名自Torsion, 即绕转的意思. 它衡量的是[[代数/同调代数
 双函子的平衡性源于投射模必然是[[平坦模]]. 同样地我们有 $\Tor^R_0(X,Y)=X\otimes_RY$. 并且有长正合列:
 
 ```tikz
-\usepackage{tikz-cd} \begin{document} \Large\begin{tikzcd}[row sep=large] & \cdots & {\mathrm{Tor}^R_{n+1}(X'',Y)} \\ \\ {\mathrm{Tor}^R_n(X',Y)} & {\mathrm{Tor}^R_n(X,Y)} & {\mathrm{Tor}^R_n(X'',Y)} \\ \\ {\mathrm{Tor}^R_{n-1}(X',Y)} & \cdots \arrow[from=1-2, to=1-3] \arrow[from=3-1, to=3-2] \arrow[from=3-2, to=3-3] \arrow[from=5-1, to=5-2] \arrow["{\partial_{n+1}}"{pos=0.8}, from=1-3, to=3-1, rounded corners,  to path={
+\usepackage{tikz-cd} \begin{document} \large\begin{tikzcd}[row sep=large] & \cdots & {\mathrm{Tor}^R_{n+1}(X'',Y)} \\ \\ {\mathrm{Tor}^R_n(X',Y)} & {\mathrm{Tor}^R_n(X,Y)} & {\mathrm{Tor}^R_n(X'',Y)} \\ \\ {\mathrm{Tor}^R_{n-1}(X',Y)} & \cdots \arrow[from=1-2, to=1-3] \arrow[from=3-1, to=3-2] \arrow[from=3-2, to=3-3] \arrow[from=5-1, to=5-2] \arrow["{\partial_{n+1}}"{pos=0.8}, from=1-3, to=3-1, rounded corners,  to path={
 -- ([xshift=2ex]\tikztostart.east)
 |- (2,2)\tikztonodes
  -| ([xshift=-2ex]\tikztotarget.west)
@@ -32,7 +32,7 @@ Tor函子名自Torsion, 即绕转的意思. 它衡量的是[[代数/同调代数
 以及另一个方向上的:
 
 ```tikz
-\usepackage{tikz-cd} \begin{document} \Large\begin{tikzcd}[row sep=large] & \cdots & {\mathrm{Tor}^R_{n+1}(X,Y'')} \\ \\ {\mathrm{Tor}^R_n(X,Y')} & {\mathrm{Tor}^R_n(X,Y)} & {\mathrm{Tor}^R_n(X,Y'')} \\ \\ {\mathrm{Tor}^R_{n-1}(X,Y')} & \cdots \arrow[from=1-2, to=1-3] \arrow[from=3-1, to=3-2] \arrow[from=3-2, to=3-3] \arrow[from=5-1, to=5-2] \arrow["{\partial_{n+1}}"{pos=0.8}, from=1-3, to=3-1, rounded corners,  to path={
+\usepackage{tikz-cd} \begin{document} \large\begin{tikzcd}[row sep=large] & \cdots & {\mathrm{Tor}^R_{n+1}(X,Y'')} \\ \\ {\mathrm{Tor}^R_n(X,Y')} & {\mathrm{Tor}^R_n(X,Y)} & {\mathrm{Tor}^R_n(X,Y'')} \\ \\ {\mathrm{Tor}^R_{n-1}(X,Y')} & \cdots \arrow[from=1-2, to=1-3] \arrow[from=3-1, to=3-2] \arrow[from=3-2, to=3-3] \arrow[from=5-1, to=5-2] \arrow["{\partial_{n+1}}"{pos=0.8}, from=1-3, to=3-1, rounded corners,  to path={
 -- ([xshift=2ex]\tikztostart.east)
 |- (2,2)\tikztonodes
  -| ([xshift=-2ex]\tikztotarget.west)

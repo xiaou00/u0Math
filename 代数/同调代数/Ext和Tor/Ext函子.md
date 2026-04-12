@@ -20,7 +20,7 @@ Ext函子名自Extension, 即扩张. 它衡量的是[[Hom函子]]的不正合性
 注意到, $\Ext^0=\Hom$, 而 $(\Ext^n)_{n\ge 0}$ 则对变元 $X,Y$ 有长正合列:
 
 ```tikz
-\usepackage{tikz-cd} \begin{document} \Large\begin{tikzcd}[row sep=large] & \cdots & {\mathrm{Ext}^{n-1}(X',Y)} \\ \\ {\mathrm{Ext}^{n}(X'',Y)} & {\mathrm{Ext}^{n}(X,Y)} & {\mathrm{Ext}^{n}(X',Y)} \\ \\ {\mathrm{Ext}^{n+1}(X'',Y)} & \cdots \arrow[from=1-2, to=1-3] \arrow[from=3-1, to=3-2] \arrow[from=3-2, to=3-3] \arrow[from=5-1, to=5-2] \arrow["{\delta^{n-1}}"{pos=0.8}, from=1-3, to=3-1, rounded corners,  to path={
+\usepackage{tikz-cd} \begin{document} \large\begin{tikzcd}[row sep=large] & \cdots & {\mathrm{Ext}^{n-1}(X',Y)} \\ \\ {\mathrm{Ext}^{n}(X'',Y)} & {\mathrm{Ext}^{n}(X,Y)} & {\mathrm{Ext}^{n}(X',Y)} \\ \\ {\mathrm{Ext}^{n+1}(X'',Y)} & \cdots \arrow[from=1-2, to=1-3] \arrow[from=3-1, to=3-2] \arrow[from=3-2, to=3-3] \arrow[from=5-1, to=5-2] \arrow["{\delta^{n-1}}"{pos=0.8}, from=1-3, to=3-1, rounded corners,  to path={
 -- ([xshift=2ex]\tikztostart.east)
 |- (2,2)\tikztonodes
  -| ([xshift=-2ex]\tikztotarget.west)
@@ -36,7 +36,7 @@ Ext函子名自Extension, 即扩张. 它衡量的是[[Hom函子]]的不正合性
 以及另一个方向上的:
 
 ```tikz
-\usepackage{tikz-cd} \begin{document} \Large\begin{tikzcd}[row sep=large] & \cdots & {\mathrm{Ext}^{n-1}(X,Y'')} \\ \\ {\mathrm{Ext}^{n}(X,Y')} & {\mathrm{Ext}^{n}(X,Y)} & {\mathrm{Ext}^{n}(X,Y'')} \\ \\ {\mathrm{Ext}^{n+1}(X,Y')} & \cdots \arrow[from=1-2, to=1-3] \arrow[from=3-1, to=3-2] \arrow[from=3-2, to=3-3] \arrow[from=5-1, to=5-2] \arrow["{\delta^{n-1}}"{pos=0.8}, from=1-3, to=3-1, rounded corners,  to path={
+\usepackage{tikz-cd} \begin{document} \large\begin{tikzcd}[row sep=large] & \cdots & {\mathrm{Ext}^{n-1}(X,Y'')} \\ \\ {\mathrm{Ext}^{n}(X,Y')} & {\mathrm{Ext}^{n}(X,Y)} & {\mathrm{Ext}^{n}(X,Y'')} \\ \\ {\mathrm{Ext}^{n+1}(X,Y')} & \cdots \arrow[from=1-2, to=1-3] \arrow[from=3-1, to=3-2] \arrow[from=3-2, to=3-3] \arrow[from=5-1, to=5-2] \arrow["{\delta^{n-1}}"{pos=0.8}, from=1-3, to=3-1, rounded corners,  to path={
 -- ([xshift=2ex]\tikztostart.east)
 |- (2,2)\tikztonodes
  -| ([xshift=-2ex]\tikztotarget.west)

@@ -8,7 +8,7 @@
   "rightToLeft": false,
   "autoPairMarkdown": true,
   "autoPairBrackets": true,
-  "vimMode": false,
+  "vimMode": true,
   "mobileToolbarCommands": [
     "editor:undo",
     "editor:redo",
@@ -43,5 +43,6 @@
     "PDFs/",
     "templates/"
   ],
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "spellcheck": false
 }

@@ -29,7 +29,7 @@ d^{n+1}(d^nf)=&d_Y(d_Yf-(-1)^nfd_X)-(-1)^{n+1}(d_Yf-(-1)^nfd_X)d_X\\
 \end{aligned}$$
 >下面证明函子性. 考虑图表
 >```tikz
-\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[cramped,row sep=large] {\mathrm{Hom}^n(X^\bullet,Y^\bullet)} && {\mathrm{Hom}^n(\underline{X}^\bullet,\underline{Y}^\bullet)} \\ \\ {\mathrm{Hom}^{n+1}(X^\bullet,Y^\bullet)} && {\mathrm{Hom}^{n+1}(\underline{X}^\bullet,\underline{Y}^\bullet)} \arrow["{\mathrm{Hom}^{n}(u,v)}", from=1-1, to=1-3] \arrow["{d^n}"', from=1-1, to=3-1] \arrow["{\underline d^n}", from=1-3, to=3-3] \arrow["{\mathrm{Hom}^{n+1}(u,v)}"', from=3-1, to=3-3] \end{tikzcd} \end{document}
+\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[cramped,row sep=large] {\mathrm{Hom}^n(X^\bullet,Y^\bullet)} && {\mathrm{Hom}^n(\underline{X}^\bullet,\underline{Y}^\bullet)} \\ \\ {\mathrm{Hom}^{n+1}(X^\bullet,Y^\bullet)} && {\mathrm{Hom}^{n+1}(\underline{X}^\bullet,\underline{Y}^\bullet)} \arrow["{\mathrm{Hom}^{n}(u,v)}", from=1-1, to=1-3] \arrow["{d^n}"', from=1-1, to=3-1] \arrow["{\underline d^n}", from=1-3, to=3-3] \arrow["{\mathrm{Hom}^{n+1}(u,v)}"', from=3-1, to=3-3] \end{tikzcd} \end{document}
 >```
 >由于 $d_Xu=ud_{\underline X},vd_Y=d_{\underline Y}v$, 显然图表交换.
 

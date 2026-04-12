@@ -7,7 +7,7 @@ $\newcommand{\norm}[1]{\lVert{#1}\rVert}$
 >```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\Large
+\large
 \begin{tikzcd}[row sep=large]
 X & B & {A\times B} \\
 U & A & C

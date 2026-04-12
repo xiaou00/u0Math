@@ -1,5 +1,5 @@
 {
-  "accentColor": "#878787",
+  "accentColor": "#ffffff",
   "cssTheme": "Border",
   "enabledCssSnippets": [
     "idea",
@@ -8,10 +8,11 @@
     "custom_callouts_dark"
   ],
   "theme": "obsidian",
-  "textFontFamily": "Century,Cambria Math",
+  "textFontFamily": "FreeSerif,Century,Cambria Math",
   "baseFontSizeAction": true,
   "interfaceFontFamily": "Century,Cambria Math,Times New Roman",
   "monospaceFontFamily": "",
   "baseFontSize": 17,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "showRibbon": true
 }

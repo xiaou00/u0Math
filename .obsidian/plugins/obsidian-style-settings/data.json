@@ -58,5 +58,9 @@
   "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-transparent-dark",
   "Components@@canvas-card-border-style": "\"\"",
   "Components@@immersive-canvas": true,
-  "Components@@media-embed-card-border-off": true
+  "Components@@media-embed-card-border-off": true,
+  "Components@@file-icon-remove": true,
+  "Components@@folder-font-bold": true,
+  "Components@@file-names-untrim": false,
+  "Components@@CTA-BTN-enable": false
 }

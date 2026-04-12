@@ -20,7 +20,7 @@
 >```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\Large
+\large
 \begin{tikzcd}[row sep=large] && {A'} \\ \\ A && B && D \\ \\ && C
 \arrow["t"', dashed, from=1-3, to=3-1]
 \arrow["{f'}", from=1-3, to=3-3]
@@ -67,26 +67,26 @@
 >
 >如下图所示:
 >```tikz
->\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[row sep=large] A && B && C \\ \\ && D \arrow["f", from=1-1, to=1-3] \arrow["0"{description}, bend left=30, from=1-1, to=1-5] \arrow["e"{description}, dashed, from=1-1, to=3-3] \arrow["c", two heads, from=1-3, to=1-5] \arrow["m"', hook, from=3-3, to=1-3] \arrow["0"{description}, from=3-3, to=1-5] \end{tikzcd} \end{document}
+>\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[row sep=large] A && B && C \\ \\ && D \arrow["f", from=1-1, to=1-3] \arrow["0"{description}, bend left=30, from=1-1, to=1-5] \arrow["e"{description}, dashed, from=1-1, to=3-3] \arrow["c", two heads, from=1-3, to=1-5] \arrow["m"', hook, from=3-3, to=1-3] \arrow["0"{description}, from=3-3, to=1-5] \end{tikzcd} \end{document}
 >```
 >显然 $cm=0, cf=0$, 由核的泛性质存在唯一 $e:A\to D$ 使得 $f=me$. 对任意 $h:\cdot\to A$, 由 $m$ 是单态射, $fh=0$ 成立当且仅当 $eh=0$ 成立, 这是因为
 >$$fh=0\iff meh=0\iff eh=0$$
 >因此 $\ker f=\ker e$, 下面证明 $e$ 是满态射:
 >不妨记 $r=\coker e: D\to E$, $t=\ker r: F\to D$. 由 $t$ 核的泛性质可知存在唯一的 $h:A\to F$ 使得下图表交换:
 >```tikz
-\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[row sep=large] A && B && C \\ \\ F && D && E \arrow["f", from=1-1, to=1-3] \arrow["h"', dashed, from=1-1, to=3-1] \arrow["e"{description}, dashed, from=1-1, to=3-3] \arrow["c", two heads, from=1-3, to=1-5] \arrow["t", hook, from=3-1, to=3-3] \arrow["m"', hook, from=3-3, to=1-3] \arrow["r", two heads, from=3-3, to=3-5] \end{tikzcd} \end{document}
+\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[row sep=large] A && B && C \\ \\ F && D && E \arrow["f", from=1-1, to=1-3] \arrow["h"', dashed, from=1-1, to=3-1] \arrow["e"{description}, dashed, from=1-1, to=3-3] \arrow["c", two heads, from=1-3, to=1-5] \arrow["t", hook, from=3-1, to=3-3] \arrow["m"', hook, from=3-3, to=1-3] \arrow["r", two heads, from=3-3, to=3-5] \end{tikzcd} \end{document}
 >```
 >显然 $mt$ 是单态射, 从而由Abel范畴性质存在态射 $s:B\to S$ 使得 $mt=\ker s$. 此时
 >$$sf=smth=s(mt)h=s\ker s\,h=0h=0$$
 >从而由余核 $c$ 的泛性质, 存在唯一态射 $q:C\to S$ 使得下图表交换:
 >```tikz
->\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[row sep=large] && S \\ \\ A && B && C \\ \\ F && D && E \arrow["0"{description}, from=3-1, to=1-3] \arrow["f", from=3-1, to=3-3] \arrow["h"', dashed, from=3-1, to=5-1] \arrow["e"{description}, dashed, from=3-1, to=5-3] \arrow["s"', from=3-3, to=1-3] \arrow["c", two heads, from=3-3, to=3-5] \arrow["q"', dashed, from=3-5, to=1-3] \arrow["t", hook, from=5-1, to=5-3] \arrow["m"', hook, from=5-3, to=3-3] \arrow["r", two heads, from=5-3, to=5-5] \end{tikzcd} \end{document}
+>\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[row sep=large] && S \\ \\ A && B && C \\ \\ F && D && E \arrow["0"{description}, from=3-1, to=1-3] \arrow["f", from=3-1, to=3-3] \arrow["h"', dashed, from=3-1, to=5-1] \arrow["e"{description}, dashed, from=3-1, to=5-3] \arrow["s"', from=3-3, to=1-3] \arrow["c", two heads, from=3-3, to=3-5] \arrow["q"', dashed, from=3-5, to=1-3] \arrow["t", hook, from=5-1, to=5-3] \arrow["m"', hook, from=5-3, to=3-3] \arrow["r", two heads, from=5-3, to=5-5] \end{tikzcd} \end{document}
 >```
 >因此
 >$$sm=qcm=(\ker c\circ c)m=0$$
 >但是$\ker s=mt$, 再由核 $mt$ 的泛性质, 存在唯一 $l:D\to F$ 使得 $m=mtl$, 如下图所示:
 >```tikz
-\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[row sep=large] && S \\ \\ A && B && C \\ \\ F && D && E \arrow["f", from=3-1, to=3-3] \arrow["h"', dashed, from=3-1, to=5-1] \arrow["e"{description, pos=0.7}, dashed, from=3-1, to=5-3] \arrow["s"', from=3-3, to=1-3] \arrow["c", two heads, from=3-3, to=3-5] \arrow["q"', dashed, from=3-5, to=1-3] \arrow["0"{description, pos=0.7}, from=5-1, to=1-3] \arrow["mt"{description, pos=0.7}, hook, from=5-1, to=3-3] \arrow["t", hook, from=5-1, to=5-3] \arrow["0"{description, pos=0.7}, bend right=30, from=5-3, to=1-3] \arrow["m"', hook, from=5-3, to=3-3] \arrow["l"{description}, bend left=30, dashed, from=5-3, to=5-1] \arrow["r", two heads, from=5-3, to=5-5] \end{tikzcd} \end{document}
+\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[row sep=large] && S \\ \\ A && B && C \\ \\ F && D && E \arrow["f", from=3-1, to=3-3] \arrow["h"', dashed, from=3-1, to=5-1] \arrow["e"{description, pos=0.7}, dashed, from=3-1, to=5-3] \arrow["s"', from=3-3, to=1-3] \arrow["c", two heads, from=3-3, to=3-5] \arrow["q"', dashed, from=3-5, to=1-3] \arrow["0"{description, pos=0.7}, from=5-1, to=1-3] \arrow["mt"{description, pos=0.7}, hook, from=5-1, to=3-3] \arrow["t", hook, from=5-1, to=5-3] \arrow["0"{description, pos=0.7}, bend right=30, from=5-3, to=1-3] \arrow["m"', hook, from=5-3, to=3-3] \arrow["l"{description}, bend left=30, dashed, from=5-3, to=5-1] \arrow["r", two heads, from=5-3, to=5-5] \end{tikzcd} \end{document}
 >```
 >这表明, 在 $B$ 的[[子对象]]族 $\mathrm{Sub}(B)$ 里, 有
 >$$(D,m)\le(F,mt)\quad (l)$$
@@ -101,14 +101,14 @@
 >[!thm] 定理4
 >考虑Abel范畴中的方形
 >```tikz
-\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[row sep=large] A & B \\ C & D \arrow["f", from=1-1, to=1-2] \arrow["g"', from=1-1, to=2-1] \arrow["h", from=1-2, to=2-2] \arrow["k"', from=2-1, to=2-2] \end{tikzcd} \end{document}
+\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[row sep=large] A & B \\ C & D \arrow["f", from=1-1, to=1-2] \arrow["g"', from=1-1, to=2-1] \arrow["h", from=1-2, to=2-2] \arrow["k"', from=2-1, to=2-2] \end{tikzcd} \end{document}
 >```
 >那么:
 >1. 该方形是交换的, 当且仅当复合 $$A\xrightarrow{\langle f,g\rangle}B\oplus C\xrightarrow{(-h,k)}D$$ 是零态射.
 >	- $\langle f,g\rangle:A\to B\oplus C$ 是使得 $f=p_B\langle f,g\rangle,g=p_C\langle f,g\rangle$ 的唯一态射, 其中 $p_B:B\oplus C\to B, p_C:B\oplus C\to C$ 是射影. 
 >	- $(-h,k):B\oplus C\to D$ 是使得 $-h=(-h,k)q_B, k=(-h,k)q_C$ 的唯一态射, q其中 $q_B:B\to B\oplus C,q_C:C\to B\oplus C$ 是余射影.
 >```tikz
-\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[row sep=large] A && B & A && B \\ & {B\oplus C} &&& {B\oplus C} \\ C && D & C && D \arrow["f", from=1-1, to=1-3] \arrow["{\langle f,g\rangle}", from=1-1, to=2-2] \arrow["g"', from=1-1, to=3-1] \arrow["h", from=1-3, to=3-3] \arrow["f", from=1-4, to=1-6] \arrow["g"', from=1-4, to=3-4] \arrow["{q_B}", from=1-6, to=2-5] \arrow["{-h}", from=1-6, to=3-6] \arrow["{p_B}"', from=2-2, to=1-3] \arrow["{p_C}"', from=2-2, to=3-1] \arrow["{(-h,k)}"', from=2-5, to=3-6] \arrow["k"', from=3-1, to=3-3] \arrow["{q_C}", from=3-4, to=2-5] \arrow["k"', from=3-4, to=3-6] \end{tikzcd} \end{document}
+\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[row sep=large] A && B & A && B \\ & {B\oplus C} &&& {B\oplus C} \\ C && D & C && D \arrow["f", from=1-1, to=1-3] \arrow["{\langle f,g\rangle}", from=1-1, to=2-2] \arrow["g"', from=1-1, to=3-1] \arrow["h", from=1-3, to=3-3] \arrow["f", from=1-4, to=1-6] \arrow["g"', from=1-4, to=3-4] \arrow["{q_B}", from=1-6, to=2-5] \arrow["{-h}", from=1-6, to=3-6] \arrow["{p_B}"', from=2-2, to=1-3] \arrow["{p_C}"', from=2-2, to=3-1] \arrow["{(-h,k)}"', from=2-5, to=3-6] \arrow["k"', from=3-1, to=3-3] \arrow["{q_C}", from=3-4, to=2-5] \arrow["k"', from=3-4, to=3-6] \end{tikzcd} \end{document}
 >```
 >2. 该方形是拉回方形当且仅当 $\langle f,g\rangle=\ker(-h,k)$.
 >3. 该方形是推出方形当且仅当 $(-h,k)=\coker\langle f,g\rangle$.
@@ -134,7 +134,7 @@
 >[!pf]
 >只证明1. 由定理4并利用其证明过程中的约定, 作下图中的拉回:
 >```tikz
-\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[row sep=large] {A'} \\ & A && B \\ && {B\oplus C} \\ & C && D \arrow[dashed, from=1-1, to=2-2] \arrow[bend left=30, from=1-1, to=2-4] \arrow[bend right=30, from=1-1, to=4-2] \arrow["f", two heads, from=2-2, to=2-4] \arrow["{\langle f,g\rangle}"{description}, from=2-2, to=3-3] \arrow["g"', from=2-2, to=4-2] \arrow["{q_B}"{description}, shift left=2, from=2-4, to=3-3] \arrow["{-h}"', shift right, from=2-4, to=4-4] \arrow["h", shift left, from=2-4, to=4-4] \arrow["{p_B}"{description}, shift left=2, from=3-3, to=2-4] \arrow["{p_C}"{description}, shift right=2, from=3-3, to=4-2] \arrow["{(-h,k)}"{description}, from=3-3, to=4-4] \arrow["{q_C}"{description}, shift right=2, from=4-2, to=3-3] \arrow["k"', two heads, from=4-2, to=4-4] \end{tikzcd} \end{document}
+\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[row sep=large] {A'} \\ & A && B \\ && {B\oplus C} \\ & C && D \arrow[dashed, from=1-1, to=2-2] \arrow[bend left=30, from=1-1, to=2-4] \arrow[bend right=30, from=1-1, to=4-2] \arrow["f", two heads, from=2-2, to=2-4] \arrow["{\langle f,g\rangle}"{description}, from=2-2, to=3-3] \arrow["g"', from=2-2, to=4-2] \arrow["{q_B}"{description}, shift left=2, from=2-4, to=3-3] \arrow["{-h}"', shift right, from=2-4, to=4-4] \arrow["h", shift left, from=2-4, to=4-4] \arrow["{p_B}"{description}, shift left=2, from=3-3, to=2-4] \arrow["{p_C}"{description}, shift right=2, from=3-3, to=4-2] \arrow["{(-h,k)}"{description}, from=3-3, to=4-4] \arrow["{q_C}"{description}, shift right=2, from=4-2, to=3-3] \arrow["k"', two heads, from=4-2, to=4-4] \end{tikzcd} \end{document}
 >``` 
 >并且令 $k:C\twoheadrightarrow D$ 是满态射, $k=(-h,k)q_C$, 由[[单态射&满态射|此页面定理1]], $(-h,k)$ 是满态射, 因此由定理4,
 >$$(-h,k)=\coker\ker(-h,k)=\coker\langle f,g\rangle$$

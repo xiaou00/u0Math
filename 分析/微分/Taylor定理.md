@@ -29,7 +29,7 @@ $$f(x_0)+\d f(x_0)(\Delta x)+\frac12\d^2f(x_0)(\Delta x^2)$$
 >[!pf]
 >用归纳法对$n$进行归纳, 显然当$n=1$时就是微分的基本定义. 假设对于$n=k$时命题成立, 
 >$$\frac{\d T_{k+1}f(x_0)(x)}{\d x}=f'(x_0)+\frac1{1!}f''(x_0)(x-x_0)+\cdots+\frac1{k!}f^{(k+1)}(x_0)(x-x_0)^k=T_k\dd xf(x_0)(x)$$
->由[[l'Hôpital法则]]和归纳假设, 
+>由[[l'Hospital法则]]和归纳假设, 
 >$$\lim_{x\to x_0}{\frac{f(x)-T_{k+1}f(x_0)(x)}{(x-x_0)^{k+1}}}=\frac1{k+1}\lim_{x\to x_0}{\frac{f'(x)-T_{k}f'(x_0)(x)}{(x-x_0)^{k}}}$$
 >从而原命题成立.
 

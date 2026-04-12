@@ -10,7 +10,7 @@ aliases:
 >[!pf]
 >我们要证明, 若空间 $X=U_1\cup U_2$, 其中 $U_1,U_2$ 为开集, $V=U_1\cap U_2$. 则下图在 $\mathsf{Grpd}$ 中是推出方形:
 >```tikz
-\usepackage{tikz-cd} \begin{document} \Large \begin{tikzcd}[row sep=large] {\Pi_1(V)} && {\Pi_1(U_1)} \\ \\ {\Pi_1(U_2)} && {\Pi_1(X)} \\ &&& G \arrow["{\phi_1}", from=1-1, to=1-3] \arrow["{\phi_2}"', from=1-1, to=3-1] \arrow["{\psi_1}", from=1-3, to=3-3] \arrow["{F_1}", bend left=30, from=1-3, to=4-4] \arrow["{\psi_2}"', from=3-1, to=3-3] \arrow["{F_2}"', bend right=30, from=3-1, to=4-4] \arrow["{\exists!\Phi}"', dashed, from=3-3, to=4-4] \end{tikzcd} \end{document}
+\usepackage{tikz-cd} \begin{document} \large \begin{tikzcd}[row sep=large] {\Pi_1(V)} && {\Pi_1(U_1)} \\ \\ {\Pi_1(U_2)} && {\Pi_1(X)} \\ &&& G \arrow["{\phi_1}", from=1-1, to=1-3] \arrow["{\phi_2}"', from=1-1, to=3-1] \arrow["{\psi_1}", from=1-3, to=3-3] \arrow["{F_1}", bend left=30, from=1-3, to=4-4] \arrow["{\psi_2}"', from=3-1, to=3-3] \arrow["{F_2}"', bend right=30, from=3-1, to=4-4] \arrow["{\exists!\Phi}"', dashed, from=3-3, to=4-4] \end{tikzcd} \end{document}
 >```
 >设 $\alpha: [0, 1] \to X$ 是 $X$ 中的一条路径. 由[[Lebesgue数引理]]. 由于 $U_1,U_2$ 覆盖 $X$, 则存在一个分割
 >$$0=t_0<t_2<\cdots<t_n=1$$

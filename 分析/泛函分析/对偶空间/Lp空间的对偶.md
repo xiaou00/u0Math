@@ -8,7 +8,7 @@
 >[!pf]
 >对于给定的$g\in\ms L^q$, 定义映射
 >$$\Phi_g(h)=\int_X{hg\,\d\mu}$$
->由[[Hölder不等式]], 
+>由[[Hoelder不等式]], 
 >$$|\Phi_g(h)|=\left|\int_X{hg\,\d\mu}\right|\le\lVert{h}\rVert_p\lVert{g}\rVert_q$$
 >这说明$\Phi_g$是$\ms L^p$上的有界线性泛函, 且其算子范数$\norm{\Phi_g}_{\rm op}\le\norm{g}_q$. 下面, 假设选定一个连续的线性泛函$f\in(\ms L^p)^*$, 我们要找到对应的$g$.
 >
