@@ -2,7 +2,7 @@
 
 术语解释: $f$在$A$上**蜕化**$\iff f(A)=\set{0}$.
 
->[!thmysohn度量化定理 (Urysohn metrization theorem)
+>[!thm] Urysohn度量化定理 (Urysohn metrization theorem)
 >每一个具有可数基的正则空间$X$都是可度量化的. (C2+T3⇒可度量化).
 
 >[!pf]

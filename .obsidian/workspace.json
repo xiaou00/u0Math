@@ -4,97 +4,82 @@
     "type": "split",
     "children": [
       {
-        "id": "8cfd45f9b6056a26",
+        "id": "e9b4beae5a0f9bb6",
         "type": "tabs",
         "children": [
           {
-            "id": "2004285f36352af8",
+            "id": "9acdab6e9aa0b23c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代数/交换代数/维数/Krull定理.md",
+                "file": "几何/代数几何/正则&光滑/平展态射.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Krull定理"
+              "title": "平展态射"
             }
           },
           {
-            "id": "4a1ec2938329c000",
+            "id": "1f48edf3a9c24a8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "几何/代数几何/概形/概形.md",
+                "file": "几何/代数几何/正则&光滑/光滑态射.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "概形"
+              "title": "光滑态射"
             }
           },
           {
-            "id": "6e8427a9207a44f4",
+            "id": "34b5d203a69749da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代数/交换代数/Noether环/Nakayama引理.md",
+                "file": "代数/交换代数/赋值环/离散赋值环.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Nakayama引理"
+              "title": "离散赋值环"
             }
           },
           {
-            "id": "1dba6c4eaae8f02b",
+            "id": "ddbe467db31c96c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代数/交换代数/正规性/整扩张.md",
+                "file": "几何/代数几何/概形的态射/态射的类别/概形的态射总览.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "整扩张"
+              "title": "概形的态射总览"
             }
           },
           {
-            "id": "ba03dc163f1ddbfe",
+            "id": "a0cd5b99d1cacb75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "几何/代数几何/维数/Noether正规化.md",
+                "file": "几何/代数几何/概形的态射/相对概形.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Noether正规化"
-            }
-          },
-          {
-            "id": "9499118de8c636ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "代数/抽象代数/群论/群.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "群"
+              "title": "相对概形"
             }
           }
         ],
@@ -155,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5110321044922,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "cfa8e8d39211b9b9",
@@ -172,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "几何/代数几何/维数/余维数.md",
+                "file": "几何/代数几何/正则&光滑/射影空间的Jacobi判别法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 余维数"
+              "title": "Backlinks for 射影空间的Jacobi判别法"
             }
           },
           {
@@ -273,55 +257,56 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "4a1ec2938329c000",
+  "active": "7cbaa6b651d38023",
   "lastOpenFiles": [
-    "几何/代数几何/概形的性质/Noether概形.md",
-    "代数/交换代数/维数/Krull定理.md",
-    "几何/代数几何/维数/余维数.md",
-    "代数/交换代数/正规性/整扩张.md",
-    "代数/交换代数/Noether环/Nakayama引理.md",
-    "代数/交换代数/Noether环/Jacobson根.md",
-    "代数/交换代数/Noether环/乘法封闭子集.md",
-    "几何/代数几何/维数/超越度.md",
-    "代数/交换代数/Noether环/回避引理.md",
-    "几何/代数几何/维数/Krull维数.md",
-    "代数/抽象代数/群论/群.md",
-    "几何/代数几何/维数/Noether正规化.md",
-    "分析/复分析/Cauchy积分公式/Liouville定理.md",
-    "代数/线性代数/内积空间/规范正交.md",
+    "几何/凝聚层论",
+    "几何/代数几何/正则&光滑/平展态射.md",
+    "几何/代数几何/概形的态射/相对概形.md",
+    "几何/代数几何/正则&光滑/光滑态射.md",
     "几何/代数几何/概形的态射/态射的类别/概形的态射总览.md",
+    "几何/代数几何/拟凝聚层&凝聚层/相伴点.md",
+    "数论/代数数论/p-adic赋值.md",
+    "几何/代数几何/拟凝聚层&凝聚层/伴随层.md",
+    "几何/代数几何/正则&光滑/Hartogs引理.md",
+    "几何/代数几何/正则&光滑/零点和极点.md",
+    "几何/代数几何/正则&光滑/Bertini定理.md",
+    "几何/代数几何/维数/Krull维数.md",
+    "Untitled 2.md",
+    "数论/代数数论/Dedekind整环.md",
     "代数/交换代数/赋值环/离散赋值环.md",
-    "代数/交换代数/正规性/整元素.md",
-    "几何/代数几何/概形的态射/态射的类别/整态射.md",
-    "分析/微分/微分中值定理/l'Hospital法则.md",
-    "代数/交换代数/维数/Noether环的Krull维数.md",
-    "代数/扩张理论/超越基.md",
-    "代数/扩张理论/代数无关.md",
-    "代数/扩张理论/超越元.md",
-    "Untitled 3.md",
-    "代数/扩张理论/中间域.md",
-    "代数/扩张理论/扩张塔.md",
+    "几何/代数几何/闭嵌入/Veronese嵌入.md",
+    "代数/交换代数/维数/局部环的Krull维数.md",
+    "数论/代数数论/赋值.md",
+    "数论/代数数论/赋值环.md",
+    "数论/代数数论/有序Abel群.md",
+    "几何/代数几何/正则&光滑/对偶射影空间.md",
+    "几何/代数几何/纤维积/Segre嵌入.md",
+    "几何/代数几何/概形/有限型.md",
+    "几何/代数几何/概形的态射/概形范畴的可表函子.md",
+    "代数/范畴论/极限进阶/群对象.md",
+    "几何/代数几何/概形/射影概形/射影空间.md",
+    "几何/代数几何/正则&光滑/Jacobi余秩.md.tmp.763520.1777115585525",
+    "几何/代数几何/正则&光滑/Jacobi余秩.md.tmp.763520.1777115443625",
+    "几何/代数几何/正则&光滑/Jacobi余秩.md.tmp.763520.1777115348126",
+    "代数/代数几何/Jacobi矩阵与Zariski切空间.md.tmp.763520.1777114733315",
+    "代数/代数几何",
+    "几何/代数几何/正则&光滑/Untitled.canvas",
+    "代数/交换代数/正则性",
+    "几何/代数几何/正则&光滑",
+    "Pasted image 20260421150925.png",
     "几何/代数几何/维数",
     "几何/代数几何/代数群",
     "几何/代数几何/概形的态射/固有态射/固有性.md.tmp.855478.1775604385650",
-    "几何/代数几何/概形的态射/固有态射/固有性.md.tmp.855478.1775604304149",
     "Pasted image 20260406234048.png",
     "Pasted image 20260406234036.png",
     "Pasted image 20260406234031.png",
-    "几何/代数几何/概形的态射/固有态射",
-    "几何/代数几何/概形的态射/分离态射",
     "Pasted image 20260401000541.png",
-    "几何/代数几何/纤维积",
-    "preamble.sty~",
-    "几何/代数几何/闭嵌入/仿射锥和射影锥.md~",
-    "几何/代数几何/闭嵌入",
     "几何/代数几何/消去理论/Untitled.canvas",
     "Pasted image 20260317003235.png",
     "Pasted image 20260315200403.png",
     "Pasted image 20260306224132.png",
     "images/rumia.png",
     "images/dayousei.png",
-    "images/cirno.png",
     "拓扑/代数拓扑/同调论/胞腔同调/Untitled.canvas",
     "代数/抽象代数/群论/群作用/群作用(总结).canvas",
     "拓扑/点集拓扑/闭集与极限点/闭集相关内容-总结.canvas",

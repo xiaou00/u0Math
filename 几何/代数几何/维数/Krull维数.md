@@ -68,3 +68,6 @@ Krull维数对于两个不同的对象: [[拓扑空间]] (尤其是[[Noether空�
 >[!thm] 定理8
 >对于域 $k$, $\dim\mathbb A^n_k=n$.
 
+>[!thm] 定理9
+>对任何Noether局部环 $(A,\mf m,k)$, $\dim A\le\dim_k\mf m/\mf m^2$.
+

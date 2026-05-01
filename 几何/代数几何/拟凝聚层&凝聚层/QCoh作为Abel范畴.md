@@ -32,4 +32,4 @@ $$0\to K_f\to M_f\to N_f\to P_f\to 0$$
 >设 $\mc F$ 是 $\mathsf{QCoh}_X$ 中的单对象, 那么 $\mc F$ 的支持是一个闭子概形 $Z\subset X$. 由于 $\mc F$ 是单对象, 其支持只能是一个闭点 $x\in X$, 否则可以通过限制在 $Z$ 的某个非空开子集上得到 $\mc F$ 的一个非零子对象, 从而与单对象矛盾. 于是 $\mc F$ 的支持是一个闭点 $x\in X$, 由于 $\mc F$ 是单对象, 其茎 $\mc F_x$ 是一个域上的单模, 从而 $\mc F_x\simeq k(x)$, 于是 $\mc F\simeq i_{x*}k(x)$.
 
 >[!thm] 定理3
->若 $\ell(\mc F)<\infty$, 那么 $\mc F$ 是[[几何/代数几何/拟凝聚层&凝聚层/有限型|有限型]]的, 并且 $\mathrm{Supp}(\mc F)$ 为有限个闭点.
+>若 $\ell(\mc F)<\infty$, 那么 $\mc F$ 是[[有限型(凝聚层)|有限型(凝聚层)]]的, 并且 $\mathrm{Supp}(\mc F)$ 为有限个闭点.

@@ -1,18 +1,20 @@
 {
-  "accentColor": "#ffffff",
+  "accentColor": "#616161",
   "cssTheme": "Border",
   "enabledCssSnippets": [
     "idea",
     "definition",
     "custom-admonitions.5e6c40",
-    "custom_callouts_dark"
+    "custom_callouts",
+    "xiaou0_light",
+    "bold_fix"
   ],
-  "theme": "obsidian",
-  "textFontFamily": "FreeSerif,Century,Cambria Math",
+  "theme": "moonstone",
+  "textFontFamily": "LXGW WenKai GB Screen,FreeSerif",
   "baseFontSizeAction": true,
-  "interfaceFontFamily": "Century,Cambria Math,Times New Roman",
+  "interfaceFontFamily": "LXGW WenKai Mono Screen",
   "monospaceFontFamily": "",
-  "baseFontSize": 17,
+  "baseFontSize": 14,
   "nativeMenus": true,
   "showRibbon": true
 }
