@@ -1,20 +1,21 @@
 {
   "accentColor": "#616161",
-  "cssTheme": "Border",
+  "cssTheme": "Serenity",
   "enabledCssSnippets": [
     "idea",
     "definition",
     "custom-admonitions.5e6c40",
     "custom_callouts",
     "xiaou0_light",
-    "bold_fix"
+    "bold_fix",
+    "obsidian-ember-bg"
   ],
-  "theme": "moonstone",
-  "textFontFamily": "LXGW WenKai GB Screen,FreeSerif",
+  "theme": "obsidian",
+  "textFontFamily": "LXGW WenKai GB Screen",
   "baseFontSizeAction": true,
   "interfaceFontFamily": "LXGW WenKai Mono Screen",
   "monospaceFontFamily": "",
-  "baseFontSize": 14,
+  "baseFontSize": 15,
   "nativeMenus": true,
   "showRibbon": true
 }

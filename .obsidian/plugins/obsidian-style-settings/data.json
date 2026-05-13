@@ -68,5 +68,11 @@
   "Appearance-light@@card-shadow-light": "0",
   "Appearance-light@@theme-light-style-select": "theme-light-background-old-default",
   "Appearance-light@@background-underlying-select-light": "background-underlying-primary-light",
-  "Appearance-light@@background-underlying-light": "#FFFFFF00"
+  "Appearance-light@@background-underlying-light": "#FFFFFF00",
+  "serenity-theme@@active-line-highlight": false,
+  "serenity-theme@@fonts-source": "custom-font",
+  "serenity-theme@@font-default-select": "Lato",
+  "serenity-theme@@font-default-custom": "LXGW WenKai Screen",
+  "serenity-theme@@font-secondary-custom": "LXGW WenKai Screen",
+  "serenity-theme@@font-monospace-custom": "JetBrains Mono"
 }

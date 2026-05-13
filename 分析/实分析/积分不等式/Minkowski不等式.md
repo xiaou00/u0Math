@@ -1,7 +1,7 @@
 #分析 
 
 >[!thm] Minkowski不等式
->若$1\le p\le \infty$, $f,g\in \ms{L}^p$, 则
+>若$1\le p\le \infty$, $f,g\in \mc{L}^p$, 则
 >$$\left(\int_{X} |f+g|^p\,\d\mu\right)^{1/p}=\norm{f+g}_p\le\norm{f}_p+\norm{g}_p=\left(\int_{X} |f|^p \,\d\mu\right)^{1/p} + \left(\int_{X} |g|^p\,\d\mu\right)^{1/p}$$
 >若$0<p\le1$, 则不等式反号. 其中$\norm{\cdot}_p$为[[Lp空间|Lp范数]].
 

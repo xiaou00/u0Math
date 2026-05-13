@@ -65742,7 +65742,7 @@ var init_katex = __esm({
         "\\mathsfit",
         // families
         "\\mathbb",
-        "\\mathcal",
+        "\\mathscr",
         "\\mathfrak",
         "\\mathscr",
         "\\mathsf",

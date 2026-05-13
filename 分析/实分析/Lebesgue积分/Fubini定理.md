@@ -1,7 +1,7 @@
 #分析 
 
 >[!thm] Fubini定理
->设有限[[测度空间]]$(X,\mc A,\mu)$和$(Y,\mc B,\nu)$, 则积测度空间$X\times Y$中, 若$X\in\mc A$, $Y\in\mc B$, 则$f\in \ms{L}^1(X\times Y)$的[[Lebesgue积分]]满足:
+>设有限[[测度空间]]$(X,\mc A,\mu)$和$(Y,\mc B,\nu)$, 则积测度空间$X\times Y$中, 若$X\in\mc A$, $Y\in\mc B$, 则$f\in \mc{L}^1(X\times Y)$的[[Lebesgue积分]]满足:
 >$$\int_{X\times Y}{f\,\d(\mu\otimes\nu)}=\int_X{\left(\int_Y{f\,\d\nu}\right)\,\d\mu}=\int_Y{\left(\int_X{f\,\d\mu}\right)\,\d\nu}$$
 
 >[!pf]

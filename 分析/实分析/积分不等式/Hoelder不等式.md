@@ -3,7 +3,7 @@
 >[!thm] Hölder不等式
 >设$p\in[1,\infty]$, $q$满足$1 /p+1 /q=1$ (即$p,q$为[[共轭指数]]), $f,g$为$X$上的[[可测映射|可测函数]], 则
 >$$\int_X{|fg|\,\d\mu}=\norm{fg}_1\le\norm{f}_p\norm{g}_q=\left(\int_X{|f|^p\,\d\mu}\right)^{1/p}\left(\int_X{|g|^q\,\d\mu}\right)^{1/q}$$
->并且若$f\in \ms{L}^p$, $g\in \ms L^q$, 则$fg\in \ms{L}^1$. 等号成立当且仅当:
+>并且若$f\in \mc{L}^p$, $g\in \mc L^q$, 则$fg\in \mc{L}^1$. 等号成立当且仅当:
 >- 当$1<p,q<\infty$时, $|f|^p$和$|g|^q$[[几乎处处]]比值为常数.
 >- 当$p=1,q=\infty$时, $g$在$f$的零点集外几乎处处等于$\norm{g}_\infty$.
 
@@ -20,4 +20,4 @@
 >$$\begin{aligned}\int_X{F(x)G(x)\,\d\mu}(x)\le\int_X{\left(\frac{F(x)^p}p+\frac{G(x)^q}q\right)\,\d\mu}(x)=\frac1p\int_X{F(x)^p\,\d\mu}(x)+\frac1q\int_X{G(x)^q\,\d\mu}(x)=\frac1p+\frac1q=1\end{aligned}$$
 >其中第三项和第四项之间代入了(I)和(II). 我们回代$F(x), G(x)$的定义:
 >$$\int_X{\frac{|f|}{\norm{f}_p}\cdot\frac{|g|}{\norm{g}_q}\,\d\mu}\le1\iff\frac1{\norm{f}_p\norm{g}_q}\int_X{|fg|\,\d\mu}\le 1\iff\norm{fg}_1\le\norm{f}_p\norm{g}_q$$
->容易证明$f\in \ms{L}^p$, $g\in L^q$蕴含$fg\in \ms{L}^1$. 定理得证.
+>容易证明$f\in \mc{L}^p$, $g\in L^q$蕴含$fg\in \mc{L}^1$. 定理得证.

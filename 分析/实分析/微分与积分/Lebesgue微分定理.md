@@ -1,7 +1,7 @@
 #分析 
 
 >[!thm] Lebesgue微分定理
->设$f\in\ms L^1(\R^d)$, 则对于开球$B$, 
+>设$f\in\mc L^1(\R^d)$, 则对于开球$B$, 
 >$$\lim_{\underset{B\ni x}{m(B)\to0}}{\frac1{m(B)}\int_{B}{f(t)\,\d t}}=f(x)\quad\rm a.e.$$
 
 >[!pf]
@@ -11,7 +11,7 @@
 >$$E_\alpha=\set{x:\lim_{\delta\to0}{\sup_{\underset{B\ni x}{m(B)<\delta}}{\left|\frac1{m(B)}\int_{B}{f(t)\,\d t}-f(x)\right|>2\alpha}}}$$
 >只需证明
 >$$m(E_\alpha)=0,\quad\forall \alpha\ge0$$
->即可. 我们先固定$\alpha$, 由于紧支连续函数$\csp_c(\R^d)$在$\ms L^1(\R^d)$中稠密, 从而对任意$\epsilon$可以选取紧支连续函数$g$使得$\norm{f-g}_1<\epsilon$. 又由于$g$的连续性蕴含了对所有$x$,
+>即可. 我们先固定$\alpha$, 由于紧支连续函数$\csp_c(\R^d)$在$\mc L^1(\R^d)$中稠密, 从而对任意$\epsilon$可以选取紧支连续函数$g$使得$\norm{f-g}_1<\epsilon$. 又由于$g$的连续性蕴含了对所有$x$,
 >$$\lim_{\underset{B\ni x}{m(B)\to0}}{\frac1{m(B)}\int_{B}g(t){\,\d t}}=g(x)$$
 >显然我们可以将差
 >$$\frac1{m(B)}\int_{B}g(t){\,\d t}-f(x)$$

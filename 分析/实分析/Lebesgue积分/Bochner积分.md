@@ -4,7 +4,7 @@
 >设$f:X\to B$, $(X,\Sigma,\mu)$为[[测度空间]], $B$为[[Banach空间]](或[[赋范空间]]), 若:
 >1. 存在一个[[简单函数]]序列$s_n\to f$ a.e. 即
 >$$\lim_{n\to\infty}{\norm{s_n(x)-f(x)}_B}=0\quad\mathrm{a.e.}$$
->2. 函数$t\mapsto\norm{f(t)}_B$ (范数函数)是[[Lebesgue积分|Lebesgue可积]]($\ms L^1$)的, 即
+>2. 函数$t\mapsto\norm{f(t)}_B$ (范数函数)是[[Lebesgue积分|Lebesgue可积]]($\mc L^1$)的, 即
 >$$\int_X{\norm{f(t)}_B\,\d\mu}<\infty$$
 >
 >则称函数$f$是**Bochner可积**(Bochner integrable)的.

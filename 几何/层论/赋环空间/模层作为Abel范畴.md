@@ -12,7 +12,7 @@ $$U\mapsto\mc F(U)\oplus\mc G(U)$$
 >对于 $\mc O_X$-模层 $\mc F,\mc G$ 以及模层态射 $\varphi:\mc F\to\mc G$, 定义**核层**(kernel sheaf)为
 >$$\ker\varphi:U\mapsto\ker(\varphi_U)$$
 >容易验证核预层是一个层, **核**(kernel)定义为 $\ker\varphi$ 和 $\varphi$ 的自然包含态射 $\ker\varphi\to\mc F$. 定义**余核层**(cokernel sheaf)为
->$$\coker\varphi:U\mapsto\coker(\varphi_U)=\ms{shf\,}(\mc G(U)/\im(\varphi_U))$$
+>$$\coker\varphi:U\mapsto\coker(\varphi_U)=\mc{shf\,}(\mc G(U)/\im(\varphi_U))$$
 >容易验证余核预层是一个层, **余核**(cokernel)定义为 $\coker\varphi$ 和 $\mc G$ 的自然包含态射 $\mc G\to\coker\varphi$.
 
 >[!thm] 定理1 (Abel范畴性)

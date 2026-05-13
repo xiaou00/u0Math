@@ -13,7 +13,7 @@
 >\dfrac{\partial f_r}{\partial x_1}(p) & \cdots & \dfrac{\partial f_r}{\partial x_n}(p)\end{pmatrix}$$
 >的第 $i$ 行. 线性空间 $(I+\mathfrak{m}^2)/\mathfrak{m}^2$ 由 $\overline{f}_1,\ldots,\overline{f}_r$ 张成, 其维数
 >$$\dim_k\frac{I+\mathfrak{m}^2}{\mathfrak{m}^2}=\operatorname{rk}J_p$$
->回到概形 $X$, 其在点 $p$ 的局部环 $\mathscr{O}_{X,p}$ 的极大理想为 $\overline{\mathfrak{m}}=\mathfrak{m}/I$, 余切空间为 $\overline{\mathfrak{m}}/\overline{\mathfrak{m}}^2$. 从而
+>回到概形 $X$, 其在点 $p$ 的局部环 $\mathcal{O}_{X,p}$ 的极大理想为 $\overline{\mathfrak{m}}=\mathfrak{m}/I$, 余切空间为 $\overline{\mathfrak{m}}/\overline{\mathfrak{m}}^2$. 从而
 >$$\overline{\mathfrak{m}}/\overline{\mathfrak{m}}^2\simeq\frac{\mathfrak{m}/I}{(\mathfrak{m}^2+I)/I}\simeq\frac{\mathfrak{m}}{\mathfrak{m}^2+I}$$
 >利用短正合列
 >$$0\to\frac{I+\mathfrak{m}^2}{\mathfrak{m}^2}\to\mathfrak{m}/\mathfrak{m}^2\to\frac{\mathfrak{m}}{\mathfrak{m}^2+I}\to 0$$

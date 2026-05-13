@@ -14,7 +14,7 @@
 >这使得$(\mathbb{E}^n,d)$构成[[度量空间]]. 我们再定义**Euclid内积**:
 >$$\langle(\enum{x}{n}),(\enum{y}{n})\rangle=\sum_{i=1}^n{x_iy_i}$$
 >这使得$(\mathbb{E}^n,\langle\cdot,\cdot\rangle)$构成[[内积空间]]. 我们再定义**Euclid拓扑**:
->Euclid度量$d$定义的所有开球的族$$\ms{B}=\set{\mc{B}_d(\vec{x},r)|\vec{x}\in\mathbb{E}^n,r\in\R_+}$$为[[基(拓扑)|基]]的拓扑$\T$就是我们要定义的拓扑.
+>Euclid度量$d$定义的所有开球的族$$\mc{B}=\set{\mc{B}_d(\vec{x},r)|\vec{x}\in\mathbb{E}^n,r\in\R_+}$$为[[基(拓扑)|基]]的拓扑$\T$就是我们要定义的拓扑.
 >这使得$(\mathbb{E}^n,\T)$构成[[拓扑空间]]. 
 >上述定义的空间就称为**$n$维Euclid空间**(Euclidean space), 记作$(\mathbb{E}^n,+,\cdot,\R,||\cdot||,d,\langle\cdot,\cdot\rangle,\T)$. 一般记作$\mathbb{E}^n$(特别强调Euclid空间作为仿射空间时) 或$\R^n$.
 

@@ -4,7 +4,7 @@ aliases:
 ---
 #分析 
 
->[!thmhn-Banach定理 (Hahn-Banach Theorem)
+>[!thm] Hahn-Banach定理 (Hahn-Banach Theorem)
 >设$X$是实[[线性空间]], 设[[泛函]]$p:X\to\R$满足对任意$x,y\in X$和正实数$\lambda$都有
 >1. 次可加性: $p(x+y)\le p(x)+p(y)$
 >2. 齐次性: $p(\lambda x)=\lambda p(x)$
@@ -34,11 +34,11 @@ aliases:
 >结合(II), (III)就推出了(I.II), 从而也就推出了(I.I). 这说明我们可以把$\ell$延拓到$Z$上, 并且使得约束条件成立.
 >
 >现在考虑集族
->$$\ms F=\set{\,(Z,\bar\ell):Z\supset Y;\, Z<X\,\text{(子空间)};\,\ell\text{在}Z\text{上的延拓}\bar\ell\text{仍然恒满足}\bar\ell(x)\le p(x)\,}$$
->我们可以在$\ms F$上定义一个偏序:
+>$$\mc F=\set{\,(Z,\bar\ell):Z\supset Y;\, Z<X\,\text{(子空间)};\,\ell\text{在}Z\text{上的延拓}\bar\ell\text{仍然恒满足}\bar\ell(x)\le p(x)\,}$$
+>我们可以在$\mc F$上定义一个偏序:
 >$$(Z,\ell)\le(Z',\ell')$$
 >当且仅当$Z\subset Z'$且$\ell'|_Z=\ell$, 也即$(Z,\ell)$是一个同样但范围更小的延拓. 
->不妨设$\set{Z_\nu,\ell_\nu}$是$\ms F$中的一个全序子集, 显然我们可以定义$Z=\bigcup{Z_\nu}$, 并定义$\ell$满足对任意$\nu$, $\ell|_{Z_\nu}=\ell_\nu$. 显然其满足条件, 并且对任意$\nu$都有$(Z_\nu,\ell_\nu)\le(Z,\ell)$. 这就证明了$\ms F$的每个链都存在上界, 由[[Zorn引理]], $\ms F$中存在极大的延拓, 那么根据前讨论, 极大延拓必定是在完整空间$X$上的延拓 (不然可以重新取$z\in X\setminus Y$生成更大的延拓, 与极大性矛盾). 证毕.
+>不妨设$\set{Z_\nu,\ell_\nu}$是$\mc F$中的一个全序子集, 显然我们可以定义$Z=\bigcup{Z_\nu}$, 并定义$\ell$满足对任意$\nu$, $\ell|_{Z_\nu}=\ell_\nu$. 显然其满足条件, 并且对任意$\nu$都有$(Z_\nu,\ell_\nu)\le(Z,\ell)$. 这就证明了$\mc F$的每个链都存在上界, 由[[Zorn引理]], $\mc F$中存在极大的延拓, 那么根据前讨论, 极大延拓必定是在完整空间$X$上的延拓 (不然可以重新取$z\in X\setminus Y$生成更大的延拓, 与极大性矛盾). 证毕.
 
 >[!cor] 推论1
 >设$X$是一个实[[赋范空间]], 对于任意非零向量$v\in X$, 那么存在一个[[有界线性算子|有界线性]][[泛函]]$\ell\in X^*,\ell:X\to\R$. 使得

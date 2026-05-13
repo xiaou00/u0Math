@@ -1,7 +1,7 @@
 #分析 
 
 >[!thm] Jensen不等式
->设[[测度空间]]$(X,\mc M,\mu)$, $\Omega\in M$且$\mu(\Omega)=1$, 若$g\in \ms{L}^1(\mu)$, $\varphi$为$g$定义域上的[[凸函数]], 则
+>设[[测度空间]]$(X,\mc M,\mu)$, $\Omega\in M$且$\mu(\Omega)=1$, 若$g\in \mc{L}^1(\mu)$, $\varphi$为$g$定义域上的[[凸函数]], 则
 >$$\varphi\left(\int_\Omega{g\,\d\mu}\right)\le\int_\Omega{\varphi\circ g\,\d\mu}$$
 >若为凹函数, 则不等号反向.
 

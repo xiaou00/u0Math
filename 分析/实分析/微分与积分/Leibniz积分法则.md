@@ -6,7 +6,7 @@
 >设$X,Y$是[[Banach空间]], $(I,\mc I,\mu)$是完备的[[测度空间]], $E\in\mc I$. $f:X\times I\to Y$. 且:
 >1. 固定$t$后, $f(\cdot,t)$在其定义域$X$上是[[Fréchet微分|Fréchet可微]]的.
 >2. 固定$x$后, $f(x,\cdot)$是[[Bochner积分|Bochner可积]]的.
->3. 存在一个$\mu$-可积函数, $g:E\to[0,\infty)\in\ms L^1$使得对所有$x\in I$, 满足
+>3. 存在一个$\mu$-可积函数, $g:E\to[0,\infty)\in\mc L^1$使得对所有$x\in I$, 满足
 >$$\norm{\D_xf(x,t)}_{\rm op}\le g(t)\quad\rm a.e.$$
 >
 >则[[Fréchet微分]]可以穿透积分号, 即
@@ -36,9 +36,9 @@
 >从而
 >$$\norm{\Phi_h(t)}_Y\le\sup_{s\in[0,1]}{\norm{\D_xf(x+sh,t)-\D_xf(x,t)}_{\rm op}}$$
 >由条件, 对于a.e.  $t\in I$, 有
->$$\sup_{s\in[0,1]}{\norm{\D_xf(x+sh,t)}_{\rm op}}\le\sup_{x'\in\mc B(x,\norm h_X)}{\norm{\D_xf(x',t)}_{\rm op}}\le g(t)\in\ms L^1(\mu)$$
+>$$\sup_{s\in[0,1]}{\norm{\D_xf(x+sh,t)}_{\rm op}}\le\sup_{x'\in\mc B(x,\norm h_X)}{\norm{\D_xf(x',t)}_{\rm op}}\le g(t)\in\mc L^1(\mu)$$
 >因为$\set{x+sh\mid s\in[0,1]}$是$\mc B(x,\norm h_X)$的子集, 从而有
->$$\begin{aligned}\norm{\Phi_h(t)}_Y&\le\frac1{\norm h_X}(\norm{f(x+h,t)-f(x,t)}_Y+\norm{\D_xf(x,t)(h)}_Y)\\&\le\frac1{\norm h_X}(\norm{\D_xf(x+\tilde sh,t)}_{\rm op}\norm h_X+\norm{\D_xf(x,t)}_{\rm op}\norm{h}_X)\\&\le2g(t)\in\ms L^1(\mu)\end{aligned}$$
+>$$\begin{aligned}\norm{\Phi_h(t)}_Y&\le\frac1{\norm h_X}(\norm{f(x+h,t)-f(x,t)}_Y+\norm{\D_xf(x,t)(h)}_Y)\\&\le\frac1{\norm h_X}(\norm{\D_xf(x+\tilde sh,t)}_{\rm op}\norm h_X+\norm{\D_xf(x,t)}_{\rm op}\norm{h}_X)\\&\le2g(t)\in\mc L^1(\mu)\end{aligned}$$
 >其中第一步用了三角不等式, 第二步中的$\tilde s$是[[中值不等式]]中取到最大值的$s$, 另一项则是算子范数的定义推出的. 考虑$\Phi_h(t)$的逐点收敛性, 由于$f(x,\cdot)$是F-可微的, 对于固定的$t$, 当$\norm{h}_X\to0$时, 由F-微分的定义
 >$$\lim_{\norm{h}_X\to0}{\frac1{\norm{h}_X}\norm{f(x+h,t)-f(x,t)-\D_xf(x,t)(h)}_Y}=0$$
 >即

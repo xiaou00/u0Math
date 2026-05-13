@@ -1,6 +1,6 @@
 #分析 
 
-本页面主要讨论一个问题: 令$f\in\ms L^1$, 令
+本页面主要讨论一个问题: 令$f\in\mc L^1$, 令
 $$F(x)=\int_{a}^{x}{f(t)\,\d t}$$
 是否一定有等式
 $$\dd x{}F(x)=f(x)\quad \rm a.e.$$
@@ -15,15 +15,15 @@ $$\lim_{\underset{B\ni x}{m(B)\to0}}{\frac1{m(B)}\int_{B}{f(t)\,\d t}}=f(x)$$
 是否成立? 对哪些$x$成立? 为此, 我们引入以下概念:
 
 >[!def] Hardy-Littlewood极大函数
->设$f\in\ms L^1$是$\R^d$上的可积函数, 定义
+>设$f\in\mc L^1$是$\R^d$上的可积函数, 定义
 >$$Mf(x)=\sup_{B\ni x}{\frac1{m(B)}\int_{B}{|f(t)|\,\d t}},\quad x\in \R^d$$
 
 >[!thm] 定理1 (Hardy-Littlewood极大函数的基本性质)
->设$f\in\ms L^1(\R^d)$, 则
+>设$f\in\mc L^1(\R^d)$, 则
 >1. $Mf$是可测的.
 >2. $Mf(x)<\infty$ a.e.
 >3. (弱型估计)不等式
->$$m\set{x\in\R^d:Mf(x)>\alpha}\le\frac{3^d}{\alpha}\norm{f}_{\ms L^1}$$
+>$$m\set{x\in\R^d:Mf(x)>\alpha}\le\frac{3^d}{\alpha}\norm{f}_{\mc L^1}$$
 >对任意$\alpha>0$成立.
 
 >[!pf]

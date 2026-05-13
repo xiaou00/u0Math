@@ -76,9 +76,9 @@ f(x)&-f(x)\le0\\
 Lebesgue积分显然也具有线性性:
 
 >[!thmebesgue积分的线性性)
->设$f,g\in \ms{L}^1(\mu)$, $(X,\mc A,\mu)$是测度空间, $E\in\mc A$, 则
+>设$f,g\in \mc{L}^1(\mu)$, $(X,\mc A,\mu)$是测度空间, $E\in\mc A$, 则
 >$$\int_E{k f+l g\,\d\mu}=k\int_E{f\,\d\mu}+l\int_E{g\,\d\mu}$$
->即Lebesgue积分是从$\ms{L}^1$空间到值域的线性算子.
+>即Lebesgue积分是从$\mc{L}^1$空间到值域的线性算子.
 
 >[!pf]
 >先证明简单函数的情况. 设$\phi,\psi$是两个简单函数, 且$a,b\in\mathbb \R$. 先将其展开为典范形式:
@@ -115,7 +115,7 @@ Lebesgue积分显然也具有线性性:
 >---
 >对$f,g:X\to\R$, 我们将其分解为
 >$$f=f^+-f^-,\quad g=g^+-g^-$$
->由于$f,g\in \ms{L}^1(\mu)$, 从而$\int{f^+},\int{f^-},\int{g^+},\int{g^-}$都有限. 分解定义有
+>由于$f,g\in \mc{L}^1(\mu)$, 从而$\int{f^+},\int{f^-},\int{g^+},\int{g^-}$都有限. 分解定义有
 >$$\int_E{f+g\,\d\mu}=\int_E{(f^++g^+)-(f^-+g^-)\,\d\mu}=\int_E{(f+g)^+-(f+g)^-\,\d\mu}$$
 >要证明齐次性, 只需证明
 >$$\int_E{-f\,\d\mu}=\int_E{(-f)^+\,\d\mu}-\int_E{(-f)^-\,\d\mu}=\int_E{f^-\,\d\mu}-\int_E{f^+\,\d\mu}=-\int_E{f\,\d\mu}$$
@@ -152,7 +152,7 @@ Lebesgue积分显然也具有线性性:
 >从而可数可加性成立, 显然$\varphi(\O)=0$.
 
 >[!thm] 定理4 (可数可加性)
->设$(X,\mc F,\mu)$是测度空间, $\mc E=\set{E_1,E_2,\ldots}\subset \mc F$是一族可数且两两无交的集族, 则对于可积函数$f\in \ms{L}^1$, 
+>设$(X,\mc F,\mu)$是测度空间, $\mc E=\set{E_1,E_2,\ldots}\subset \mc F$是一族可数且两两无交的集族, 则对于可积函数$f\in \mc{L}^1$, 
 >$$\int_{\bigcup_{n=1}^\infty{E_n}}{f\,\d\mu}=\sum_{n=1}^\infty{\int_{E_n}{f\,\d\mu}}$$
 
 >[!pf]

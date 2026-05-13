@@ -3,29 +3,29 @@
 我们可以提出[[层]]的另一种定义: 铺展空间 (étale space) 定义.
 
 >[!def] 层 (铺展空间定义)
->设 $X$ 为[[拓扑空间]], $X$ 上的**Abel群层**(sheaf of abelian groups)是一个二元组 $(\ms A,\pi)$, 满足:
->1. $\ms A$ 是拓扑空间 (并不一定是Hausdorff的);
->2. $\pi:\ms A\to X$ 是局部同胚, 即对 $\ms A$ 任意一点 都存在邻域使得 $\pi$ 限制在其上是同胚.
->3. 对于每个 $x\in X$, 其原像 $\ms A_x=\pi^{-1}(x)$ 是Abel群, 即[[茎&芽|茎]].
+>设 $X$ 为[[拓扑空间]], $X$ 上的**Abel群层**(sheaf of abelian groups)是一个二元组 $(\mc A,\pi)$, 满足:
+>1. $\mc A$ 是拓扑空间 (并不一定是Hausdorff的);
+>2. $\pi:\mc A\to X$ 是局部同胚, 即对 $\mc A$ 任意一点 都存在邻域使得 $\pi$ 限制在其上是同胚.
+>3. 对于每个 $x\in X$, 其原像 $\mc A_x=\pi^{-1}(x)$ 是Abel群, 即[[茎&芽|茎]].
 >4. 群运算是连续的.
 
 为什么这个定义很重要? 下面几个方面表明了该定义的优势:
 
-1. **截面<->函数** 这个视角下, 开集 $U$ 的上的截影 $s\in\mc F(U)$ 变成了一个连续函数 $s:U\to\ms A$, 且 $\pi\circ s=\mathbb 1_U$.
-2. **可视化局部** 通过全空间 $\ms A$, 可以直观地看到不同函数分支在空间中的延展.
+1. **截面<->函数** 这个视角下, 开集 $U$ 的上的截影 $s\in\mc F(U)$ 变成了一个连续函数 $s:U\to\mc A$, 且 $\pi\circ s=\mathbb 1_U$.
+2. **可视化局部** 通过全空间 $\mc A$, 可以直观地看到不同函数分支在空间中的延展.
 3. **解析延拓** 这种定义起源于全纯函数, 全纯函数层通常是Hausdorff的.
 
-实际应用中, 我们通常默认 $\pi$ 已知, 并直接称 $\ms A$ 为层. 条件4的含义为: 设 $\ms A\times_X\ms A$ 是 $\ms A\times\ms A$ 的子空间, 由满足 $\pi(\alpha)=\pi(\beta)$ 的点对 $(\alpha,\beta)$ 组成, 那么映射
+实际应用中, 我们通常默认 $\pi$ 已知, 并直接称 $\mc A$ 为层. 条件4的含义为: 设 $\mc A\times_X\mc A$ 是 $\mc A\times\mc A$ 的子空间, 由满足 $\pi(\alpha)=\pi(\beta)$ 的点对 $(\alpha,\beta)$ 组成, 那么映射
 $$\begin{aligned}
-\ms A\times_X\ms A&\to\ms A\\
+\mc A\times_X\mc A&\to\mc A\\
 (\alpha,\beta)&\mapsto \alpha-\beta
 \end{aligned}$$
-是连续的, 且对应的加法也算连续的. 类似地可以定义**环层**和**模层**. 在这个视角下, 截影空间 $\mc F(U)$ 通常记作 $\Gamma(U,\ms A)$ 被定义为
-$$\mc F(U)=\set{s\in\Hom_{\mathsf{Top}}(U,\ms A)\mid \pi\circ s=\mathbb 1_U}$$
+是连续的, 且对应的加法也算连续的. 类似地可以定义**环层**和**模层**. 在这个视角下, 截影空间 $\mc F(U)$ 通常记作 $\Gamma(U,\mc A)$ 被定义为
+$$\mc F(U)=\set{s\in\Hom_{\mathsf{Top}}(U,\mc A)\mid \pi\circ s=\mathbb 1_U}$$
 
 | 概念   | 铺展空间视角             | 预层视角                    |
 | ---- | ------------------ | ----------------------- |
-| 基本元素 | 空间 $\ms A$ 中的点 *芽* | $\mc F(U)$ 中的截面         |
+| 基本元素 | 空间 $\mc A$ 中的点 *芽* | $\mc F(U)$ 中的截面         |
 | 局部性质 | $\pi$ 是局部同胚        | 满足*局部公理*                |
 | 整体构造 | 将局部同胚片段堆叠          | 满足*粘贴公理*                |
 | 代数运算 | 群运算连续              | $\mc F(U)$ 具有群结构且限制为同态. |

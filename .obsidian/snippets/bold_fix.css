@@ -1,6 +1,4 @@
 /* 强制增强粗体显示效果 */
-strong, b {
-    -webkit-font-smoothing: antialiased;
-    text-shadow: 0px 0 0 currentcolor; /* 利用微小阴影模拟粗体 */
+strong, b, .cm-strong {
     font-weight: 700 !important;
 }

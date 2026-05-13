@@ -1,0 +1,15 @@
+.theme-dark {
+  --background-primary:     #060B13;
+  --background-primary-alt: #060B13;
+  --background-secondary:   #060B13;
+  --background-secondary-alt: #060B13;
+  --titlebar-background:    #060B13;
+  --titlebar-background-focused: #060B13;
+  --ribbon-background:      #060B13;
+
+  --link-color:             #2262aa;
+  --link-color-hover:       #44dddd;
+  --link-external-color:    #729cff;
+  --link-external-color-hover: #44dddd;
+  --link-unresolved-color:  #729cff80;
+}
