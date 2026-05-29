@@ -7,7 +7,7 @@ aliases:
 >[!def] 仿射概形拟凝聚层的Čech复形
 >设 $A$ 是[[环|交换环]], $M$ 是 $A$-[[模]]. 设 $f_1,\ldots,f_n$ 是 $A$ 的一组元素, 且生成的理想为 $(1)$. 即
 >$$\sum_ia_if_i=1$$
->这对应于 $\Spec~A$ 的一个开覆盖 $\set{U_i}$, 其中 $U_i=\Spec~A_{f_i}$. 那么有如下[[正合序列]]
+>这对应于 $\Spec A$ 的一个开覆盖 $\set{U_i}$, 其中 $U_i=\Spec A_{f_i}$. 那么有如下[[正合序列]]
 >$$0\to M\xto{d_0}\prod_i{M_{f_i}}\xto{d_1}\prod_{i<j}{M_{f_if_j}}$$
 >其中 $d_0:m\mapsto\left(\dfrac m1,\ldots,\dfrac m1\right)$ 将元素打到局部化中的元素. $d_1:(x_i)_i\mapsto(x_j-x_i)_{i<j}$ 其中 $x_j-x_i$ 是指其在 $M_{f_if_j}$ 中的差. 称为该凝聚层的**Čech复形**(Čech complex).
 

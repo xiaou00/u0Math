@@ -1,15 +1,15 @@
 .theme-dark {
-  --background-primary:     #060B13;
-  --background-primary-alt: #060B13;
-  --background-secondary:   #060B13;
-  --background-secondary-alt: #060B13;
-  --titlebar-background:    #060B13;
-  --titlebar-background-focused: #060B13;
-  --ribbon-background:      #060B13;
+  --background-primary:     #0D0E0E;
+  --background-primary-alt: #0D0E0E;
+  --background-secondary:   #0D0E0E;
+  --background-secondary-alt: #0D0E0E;
+  --titlebar-background:    #0D0E0E;
+  --titlebar-background-focused: #0D0E0E;
+  --ribbon-background:      #0D0E0E;
 
-  --link-color:             #2262aa;
-  --link-color-hover:       #44dddd;
-  --link-external-color:    #729cff;
-  --link-external-color-hover: #44dddd;
-  --link-unresolved-color:  #729cff80;
+  --link-color:             #22aaee;
+  --link-color-hover:       #22aaee;
+  --link-external-color:    #22aaee;
+  --link-external-color-hover: #22aaee;
+  --link-unresolved-color:  #22aaee80;
 }

@@ -8,7 +8,7 @@
   "rightToLeft": false,
   "autoPairMarkdown": true,
   "autoPairBrackets": true,
-  "vimMode": true,
+  "vimMode": false,
   "mobileToolbarCommands": [
     "editor:undo",
     "editor:redo",

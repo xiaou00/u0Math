@@ -38,9 +38,9 @@
 >设 $\mc F$ 是一个[[有限表示]]的 $X$ 上的拟凝聚层, $\mc G$ 是 $X$ 上的一个拟凝聚层, 则 $\HomS(\mc F,\mc G)$ 是一个拟凝聚层.
 
 >[!pf]
->由于qcoh(拟凝聚)是一个仿射局部性质, 我们取 $X$ 的仿射开集 $U=\Spec~A$, 在这个开集上, 拟凝聚层 $\mc F|_U$ 和 $\mc G|_U$ 对应于 $A$-模 $M$ 和 $N$. 即
+>由于qcoh(拟凝聚)是一个仿射局部性质, 我们取 $X$ 的仿射开集 $U=\Spec A$, 在这个开集上, 拟凝聚层 $\mc F|_U$ 和 $\mc G|_U$ 对应于 $A$-模 $M$ 和 $N$. 即
 >$$\mc F|_U\simeq\widetilde M,\quad \mc G|_U\simeq\widetilde N$$
->由于 $\mc F$ 有限表示, 在更细的仿射开集 $U=\Spec~A$ 上, 模 $M$ 存在一个有限表示, 也就是下面的正合列
+>由于 $\mc F$ 有限表示, 在更细的仿射开集 $U=\Spec A$ 上, 模 $M$ 存在一个有限表示, 也就是下面的正合列
 >$$A^{\oplus q}\to A^{\oplus p}\to M\to 0$$
 >其中 $p,q$ 是自然数, 对其作用反变函子 $\HomS(-,\mc G)$, 有
 >$$0\to \HomS(\mc F|_U,\mc G|_U)\to\HomS(\mc O_U^{\oplus p},\mc G|_U)\to\HomS(\mc O_U^{\oplus q},\mc G|_U)$$

@@ -1,11 +1,11 @@
-
 .callout[data-callout="axiom"] { --callout-color: 255, 33, 33; --callout-icon: lucide-box; }
-.callout[data-callout="thm"] { --callout-color: 24, 190, 190; --callout-icon: hashtag;}
-.callout[data-callout="def"] { --callout-color: 255, 33, 33; --callout-icon: hashtag; }
-.callout[data-callout="prop"] { --callout-color: 230, 120, 2; --callout-icon: math; }
-.callout[data-callout="warning"] { --callout-color: 255, 33, 33; --callout-icon: asterisk; }
-.callout[data-callout="lem"] { --callout-color: 16, 120, 120; --callout-icon: lucide-diamond; }
-.callout[data-callout="cor"] { --callout-color: 16, 120, 120; --callout-icon: lucide-diamond; }
+.callout[data-callout="thm"] { --callout-color: 34, 170, 238; --callout-icon: lucide-bookmark-check;}
+.callout[data-callout="def"] { --callout-color: 255, 33, 33; --callout-icon: lucide-hash; }
+.callout[data-callout="prop"] { --callout-color: 20, 140, 200; --callout-icon: lucide-bookmark; }
+.callout[data-callout="warning"] { --callout-color: 255, 33, 33; --callout-icon: lucide-triangle-alert; }
+.callout[data-callout="con"] { --callout-color: 34, 238, 170; --callout-icon: lucide-wrench; }
+.callout[data-callout="lem"] { --callout-color: 20, 140, 200; --callout-icon: lucide-bookmark; }
+.callout[data-callout="cor"] { --callout-color: 20, 140, 200; --callout-icon: lucide-bookmark; }
 
 .callout[data-callout="ex"] {
     --callout-color: #7d7d7d;

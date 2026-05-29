@@ -20,10 +20,10 @@ $$0\to K_f\to M_f\to N_f\to P_f\to 0$$
 我们还有更多结论:
 
 >[!thm] 定理1
->[[概形]] $X$ 上的拟凝聚层 $\mc F\to\mc G\to\mc H$ 正合, 当且仅当其在 $X$ 的任意给定仿射覆盖的每个开集上是正合的. (特别地, 在仿射开集 $\Spec~A$ 上的截面是 $\mathsf{QCoh}_X\to\mathsf{Mod}_A$ 的[[正合函子]]).
+>[[概形]] $X$ 上的拟凝聚层 $\mc F\to\mc G\to\mc H$ 正合, 当且仅当其在 $X$ 的任意给定仿射覆盖的每个开集上是正合的. (特别地, 在仿射开集 $\Spec A$ 上的截面是 $\mathsf{QCoh}_X\to\mathsf{Mod}_A$ 的[[正合函子]]).
 
 >[!pf]
->由于 $\mc F\to\mc G\to\mc H$ 在 $X$ 上正合, 这意味着每个点 $x\in X$ 的茎上也正合. 由于茎是由局部化定义的, 这意味着在每个仿射开集 $\Spec~A$ 上, $\Gamma(\Spec~A,\mc F)\to\Gamma(\Spec~A,\mc G)\to\Gamma(\Spec~A,\mc H)$ 是正合的.
+>由于 $\mc F\to\mc G\to\mc H$ 在 $X$ 上正合, 这意味着每个点 $x\in X$ 的茎上也正合. 由于茎是由局部化定义的, 这意味着在每个仿射开集 $\Spec A$ 上, $\Gamma(\Spec A,\mc F)\to\Gamma(\Spec A,\mc G)\to\Gamma(\Spec A,\mc H)$ 是正合的.
 
 >[!thm] 定理2
 >$\mathsf{QCoh}_X$ 中的[[单模|单对象]]是闭点上的[[Skyscraper层]].

@@ -1,5 +1,5 @@
 {
-  "accentColor": "#616161",
+  "accentColor": "#d1d1d1",
   "cssTheme": "Serenity",
   "enabledCssSnippets": [
     "idea",
@@ -15,7 +15,7 @@
   "baseFontSizeAction": true,
   "interfaceFontFamily": "LXGW WenKai Mono Screen",
   "monospaceFontFamily": "",
-  "baseFontSize": 15,
+  "baseFontSize": 18,
   "nativeMenus": true,
   "showRibbon": true
 }
